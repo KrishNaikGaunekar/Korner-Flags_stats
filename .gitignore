@@ -1,0 +1,33 @@
+# Video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Model files
+*.pt
+*.pth
+*.weights
+
+# Output directories
+output_videos/
+runs/
+
+# Input videos
+Input video/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+
+# Stubs (pickle files can be large)
+stubs/
+
+# Environment
+.env
+venv/
