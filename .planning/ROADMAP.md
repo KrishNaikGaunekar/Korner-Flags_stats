@@ -30,7 +30,12 @@ Decimal phases appear between their surrounding integers in numeric order.
   2. Feature point refresh in the camera movement estimator works without AttributeError and tracking does not degrade on long clips
   3. Pipeline output is an H.264 MP4 file with `-movflags +faststart` that plays in Chrome, Firefox, and Safari without transcoding
   4. Running the pipeline on a 60-second NC State test clip shows at least 80% of visible players tracked with persistent IDs across frames
-**Plans**: TBD
+**Plans:** 3 plans
+
+Plans:
+- [ ] 01-01-PLAN.md — Fix view transformer position key, camera movement estimator typo + mask, delete misspelled init files (PIPE-01, PIPE-02)
+- [ ] 01-02-PLAN.md — Rewrite save_video to H.264 MP4 via ffmpeg, update main.py defaults and stats path (PIPE-03)
+- [ ] 01-03-PLAN.md — Run pipeline on soccer clip and user validates detection quality (PIPE-04)
 
 ### Phase 2: Data Export and Video Processing
 **Goal**: All data artifacts for 2-3 NC State clips exist in stable, committed form — annotated MP4s on GitHub Releases, stats JSON and positions JSON in the repo, team heatmap PNGs generated, and manifest.json populated with real URLs
@@ -87,11 +92,11 @@ Decimal phases appear between their surrounding integers in numeric order.
 ## Progress
 
 **Execution Order:**
-Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6
+Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Pipeline Fixes and Validation | 0/TBD | Not started | - |
+| 1. Pipeline Fixes and Validation | 0/3 | Planning complete | - |
 | 2. Data Export and Video Processing | 0/TBD | Not started | - |
 | 3. Site Scaffold and Video Playback | 0/TBD | Not started | - |
 | 4. Stats Visualizations | 0/TBD | Not started | - |
