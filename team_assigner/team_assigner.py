@@ -87,11 +87,6 @@ class TeamAssigner:
         if self.clusters_swapped:
             team_id = 1 if team_id == 2 else 2
 
-        # Assign goalkeeper to the white team (Team 1)
-        if player_id == 116:
-            team_id = 1
-            
-
         self.players_team_dict[player_id] = team_id
 
         return team_id
