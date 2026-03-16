@@ -1,57 +1,68 @@
-# Korner Flag - Soccer Video Analysis Project
+# Korner Flags - Soccer Video Analysis
 
 ## Project Overview
-Soccer/football video analysis tool using YOLO for object detection. Tracks players, ball, referees, and calculates possession, speed, distance, and camera movement.
+AI-powered soccer/football video analysis tool. Takes ANY uploaded match video, runs YOLO object detection + ByteTrack tracking, classifies teams by jersey color, estimates speed/distance, and outputs an annotated video with stats overlay.
 
-## Key Files Structure
-- `main.py` - Entry point
-- `trackers/tracker.py` - YOLO tracking and drawing annotations
-- `camera_movement_estimator/` - Estimates camera pan/movement
-- `view_transformer/` - Perspective transformation for real-world coordinates
-- `speed_and_distnace_estimator/` - Speed and distance calculations (note: folder name has typo "distnace")
-- `utils/` - Helper functions (bbox_utils, video_utils)
-- `team_assigner/` - Team color assignment
-- `player_ball_assigner/` - Ball possession assignment
+## How to Run
+```bash
+# Basic usage — process any video
+python main.py --input path/to/match.mp4
 
-## Known Issues / Bugs Fixed in Session
+# With custom output path
+python main.py --input match.mp4 --output results/annotated.avi
 
-### 1. Misspelled `__init__.py` files
-Several packages had `__innit__.py` instead of `__init__.py`:
-- `view_transformer/__innit__.py` (created proper `__init__.py`)
-- `speed_and_distnace_estimator/__innit__.py` (created proper `__init__.py`)
+# With custom model and confidence
+python main.py --input match.mp4 --model models/best.pt --confidence 0.15
 
-### 2. tracker.py
-- `draw_team_ball_control` was called with wrong argument order on line ~198
-- `get_foot_position` was imported but didn't exist - removed from import
-- `add_position_to_track` had variable shadowing bug (`track` parameter shadowed by loop variable)
+# Development mode (use cached stubs from previous runs)
+python main.py --input match.mp4 --use-stubs
+```
 
-### 3. camera_movement_estimator.py
-- `max_corners` should be `maxCorners` (OpenCV parameter)
-- List init `[[0,0]] * len(frames)` creates shared references - use list comprehension
-- For loop syntax `for i in (new,old) in enumerate(...)` was invalid
-- `return output_frames` was inside the loop (draw_camera_movement method)
-- Parameter name mismatch in `add_adjust_position_to_tracks`
+## Output
+- Annotated video with player ellipses, ball triangle, team colors, possession overlay
+- JSON stats file with possession %, player speeds, distances, video metadata
 
-### 4. view_transformer.py
-- **Line 14 bug**: `self.pixel_verticies = self.target_verticies.astype(np.float32)` should be `self.target_verticies = ...` (FIXED)
-- **Line 38 bug**: Calls non-existent `self.transform_position()` - should be removed (FIXED)
-- **Polygon boundary check**: Removed `pointPolygonTest` check that rejected players outside pitch quadrilateral - now all players get stats (FIXED)
+## Architecture
+```
+main.py                          — CLI entry point (argparse-based)
+trackers/tracker.py              — YOLO detection + supervision ByteTrack + annotation drawing
+team_assigner/team_assigner.py   — KMeans jersey color clustering for team classification
+player_ball_assigner/            — Ball-to-nearest-player assignment
+camera_movement_estimator/       — Optical flow camera pan estimation
+view_transformer/                — Perspective transform → real-world coordinates
+speed_and_distnace_estimator/    — Player speed (km/h) and distance (m) from transformed coords
+utils/video_utils.py             — read_video, save_video, get_video_info
+utils/bbox_utils.py              — Geometry helpers (center, width, distance, foot position)
+models/                          — YOLO weights (best.pt)
+training/                        — Training data and notebook
+```
 
-### 5. speed_and_distance_estimator.py
-- `__innit__` should be `__init__`
-- Inconsistent indentation (mixed 3 and 4 spaces)
-- `position - list(position)` should be `position = list(position)`
-- Logic bug: `if start_position is not None and end_position is not None: continue` should use `is None or is None`
+## Key Design Decisions
+- **No hardcoded video paths** — all paths come from CLI arguments
+- **No hardcoded resolutions** — UI overlays scale to any frame size
+- **No hardcoded player IDs** — team assignment is purely color-based
+- **FPS read from input video** — speed/distance calculations use actual frame rate
+- **View transformer estimates pitch vertices proportionally** from frame dimensions
+- **Stats JSON output** — machine-readable alongside the annotated video
 
-### 6. utils/bbox_utils.py
-- Added missing `get_foot_position(bbox)` function - returns bottom center (x_center, y2)
+## Dependencies
+```
+ultralytics, supervision, opencv-python-headless, numpy, pandas, scikit-learn
+```
+Install: `pip install -r requirements.txt`
 
-## Possession Smoothing
-`main.py` line ~40: `consecutive_frames_threshold = 15` (increased from 5) to prevent possession flickering during goalkeeper kicks.
+## Pipeline Flow
+1. Read video frames + extract fps/resolution metadata
+2. YOLO detect players, referees, ball (batch inference, configurable confidence)
+3. ByteTrack assign persistent IDs across frames
+4. Optical flow estimate camera pan movement
+5. Perspective transform positions to real-world meters
+6. Interpolate missing ball positions
+7. KMeans cluster jersey colors → team assignment
+8. Assign ball possession with 15-frame smoothing threshold
+9. Calculate speed (km/h) and distance (m) per player
+10. Draw annotations: ellipses, triangles, possession overlay, speed/distance labels
+11. Save annotated video + stats JSON
 
-## Remaining Fixes Needed
-None - all bugs have been fixed.
-
-### Additional Bugs Fixed
-- `speed_and_distnace_estimator/speed_and_distance_estimator.py` lines 19 & 59: Changed `'referee'` to `'referees'` (key mismatch with tracker)
-- `main.py` line 96: Added return value capture for `draw_speed_and_distance()`
+## Product Documentation
+- PRD: docs/Korner-Flags-PRD.docx (full product requirements)
