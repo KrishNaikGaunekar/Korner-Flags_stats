@@ -47,7 +47,7 @@ Plans:
   3. The stats JSON for each clip includes possession % per team, per-player max/avg speed (km/h), per-player total distance (m), and team assignment
   4. Annotated MP4 files are uploaded to GitHub Releases and accessible via stable CDN URLs (not Git LFS, not committed to repo tree)
   5. `manifest.json` committed to the repo lists each processed clip with its video URL, stats URL, heatmap URLs, and match metadata
-**Plans:** 2/4 plans executed
+**Plans:** 3/4 plans executed
 
 Plans:
 - [ ] 02-01-PLAN.md — Add positions.json export and restructure stats JSON to per-player format (DATA-01, DATA-03)
@@ -103,7 +103,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Pipeline Fixes and Validation | 3/3 | Complete   | 2026-03-17 |
-| 2. Data Export and Video Processing | 2/4 | In Progress|  |
+| 2. Data Export and Video Processing | 3/4 | In Progress|  |
 | 3. Site Scaffold and Video Playback | 0/TBD | Not started | - |
 | 4. Stats Visualizations | 0/TBD | Not started | - |
 | 5. Heatmap Visualizations | 0/TBD | Not started | - |

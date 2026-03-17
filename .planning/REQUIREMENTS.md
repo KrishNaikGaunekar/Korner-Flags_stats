@@ -15,7 +15,7 @@
 ### Data Export
 
 - [x] **DATA-01**: Pipeline exports `positions.json` with per-player (x,y) coordinates downsampled to 1Hz for heatmap generation
-- [ ] **DATA-02**: Pipeline generates team heatmap PNGs (one per team) using mplsoccer for each processed clip
+- [x] **DATA-02**: Pipeline generates team heatmap PNGs (one per team) using mplsoccer for each processed clip
 - [x] **DATA-03**: Stats JSON schema includes possession %, per-player speed (max/avg km/h), per-player total distance (m), and team assignment
 - [x] **DATA-04**: `manifest.json` committed to repo listing all processed clips with video URL, stats URL, heatmap URLs, and match metadata
 
@@ -88,7 +88,7 @@
 | PIPE-03 | Phase 1 | Complete |
 | PIPE-04 | Phase 1 | Complete |
 | DATA-01 | Phase 2 | Complete |
-| DATA-02 | Phase 2 | Pending |
+| DATA-02 | Phase 2 | Complete |
 | DATA-03 | Phase 2 | Complete |
 | DATA-04 | Phase 2 | Complete |
 | HOST-01 | Phase 2 | Complete |
