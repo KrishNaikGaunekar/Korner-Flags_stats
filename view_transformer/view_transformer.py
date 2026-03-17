@@ -51,7 +51,7 @@ class ViewTransformer():
         for object, object_tracks in tracks.items():
             for frame_num, track in enumerate(object_tracks):
                 for track_id, track_info in track.items():
-                    position = track_info.get('position')
+                    position = track_info.get('position_adjusted')
                     if position is None:
                         tracks[object][frame_num][track_id]['position_transformed'] = None
                         continue

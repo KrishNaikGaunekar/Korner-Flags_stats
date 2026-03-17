@@ -14,9 +14,10 @@ class CameraMovementEstimator:
 
 
        first_frame_grayscale = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+       h, w = first_frame_grayscale.shape[:2]
        mask_features = np.zeros_like(first_frame_grayscale)
-       mask_features[:,0:20] = 1
-       mask_features[:,900:1050] = 1
+       mask_features[:, 0:int(0.010 * w)] = 1
+       mask_features[:, int(0.469 * w):int(0.547 * w)] = 1
 
        self.features = dict(maxCorners = 100, qualityLevel = .3, minDistance = 3, blockSize = 7, mask = mask_features)
        
@@ -62,7 +63,7 @@ class CameraMovementEstimator:
 
             if max_distnace > self.minimum_distance:
                 camera_movement[frame_num] = [camera_movement_x, camera_movement_y]
-                old_feature = cv2.goodFeaturesToTrack(frame_gray, **self.features)
+                old_features = cv2.goodFeaturesToTrack(frame_gray, **self.features)
 
 
             old_gray = frame_gray.copy()
