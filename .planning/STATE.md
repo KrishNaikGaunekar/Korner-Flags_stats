@@ -3,8 +3,8 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: "Checkpoint: 01-03 Task 2 - awaiting user visual verification of YOLO detection quality"
-last_updated: "2026-03-17T20:45:10.618Z"
+stopped_at: Completed 01-03-PLAN.md — Phase 1 all plans complete
+last_updated: "2026-03-17T20:49:18.069Z"
 last_activity: 2026-03-16 — Roadmap created
 progress:
   total_phases: 6
@@ -52,6 +52,7 @@ Progress: [███░░░░░░░] 33%
 *Updated after each plan completion*
 | Phase 01 P02 | 1 | 2 tasks | 2 files |
 | Phase 01-pipeline-fixes-and-validation P01 | 3 | 2 tasks | 5 files |
+| Phase 01 P03 | 15 | 2 tasks | 0 files |
 
 ## Accumulated Context
 
@@ -69,6 +70,9 @@ Recent decisions affecting current work:
 - [Phase 01-pipeline-fixes-and-validation]: Proportional mask ratios (0.010, 0.469, 0.547) back-calculated from original 1920px calibration to support any frame width
 - [Phase 01-pipeline-fixes-and-validation]: position_adjusted is the correct key linking camera movement correction to ViewTransformer perspective transform
 - [Phase 01-pipeline-fixes-and-validation]: ffmpeg installed via winget Gyan.FFmpeg (system-level, not Python dependency) to enable H.264 MP4 output
+- [Phase 01-03]: PIPE-04 satisfied: user confirmed all 5 detection quality criteria (player ellipses, persistent IDs, ball triangle, two team colors, possession overlay)
+- [Phase 01-03]: Speed values unrealistically high (268 km/h max) — known limitation of estimated pitch vertices; add disclaimer on demo site in Phase 6
+- [Phase 01-03]: Possession accuracy slightly off — 15-frame smoothing + estimated vertices are approximate by design; acceptable for Phase 2
 
 ### Pending Todos
 
@@ -82,6 +86,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-17T20:45:01.127Z
-Stopped at: Checkpoint: 01-03 Task 2 - awaiting user visual verification of YOLO detection quality
+Last session: 2026-03-17T20:49:18.064Z
+Stopped at: Completed 01-03-PLAN.md — Phase 1 all plans complete
 Resume file: None

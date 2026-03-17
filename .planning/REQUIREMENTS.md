@@ -10,7 +10,7 @@
 - [x] **PIPE-01**: Fix `view_transformer.py` to read `position_adjusted` instead of `position` so camera movement corrections apply to speed/distance calculations
 - [x] **PIPE-02**: Fix `old_feature` → `old_features` bug in camera movement estimator so feature refresh actually works
 - [x] **PIPE-03**: Pipeline outputs H.264 MP4 with `-movflags +faststart` (browser-compatible) instead of AVI
-- [ ] **PIPE-04**: YOLO detection validated on at least one NC State D1 soccer clip before full processing
+- [x] **PIPE-04**: YOLO detection validated on at least one NC State D1 soccer clip before full processing
 
 ### Data Export
 
@@ -86,7 +86,7 @@
 | PIPE-01 | Phase 1 | Complete |
 | PIPE-02 | Phase 1 | Complete |
 | PIPE-03 | Phase 1 | Complete |
-| PIPE-04 | Phase 1 | Pending |
+| PIPE-04 | Phase 1 | Complete |
 | DATA-01 | Phase 2 | Pending |
 | DATA-02 | Phase 2 | Pending |
 | DATA-03 | Phase 2 | Pending |
