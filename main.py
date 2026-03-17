@@ -18,7 +18,7 @@ def parse_args():
     parser.add_argument('--input', '-i', type=str, required=True,
                         help='Path to input video file (mp4, mov, avi, webm)')
     parser.add_argument('--output', '-o', type=str, default=None,
-                        help='Path to output video file (default: output_videos/<input_name>_annotated.avi)')
+                        help='Path to output video file (default: output_videos/<input_name>_annotated.mp4)')
     parser.add_argument('--model', '-m', type=str, default='models/best.pt',
                         help='Path to YOLO model weights (default: models/best.pt)')
     parser.add_argument('--use-stubs', action='store_true',
@@ -42,7 +42,7 @@ def main():
     if args.output is None:
         os.makedirs('output_videos', exist_ok=True)
         input_name = os.path.splitext(os.path.basename(args.input))[0]
-        args.output = f'output_videos/{input_name}_annotated.avi'
+        args.output = f'output_videos/{input_name}_annotated.mp4'
 
     # Get video metadata (fps, resolution) from the input
     video_info = get_video_info(args.input)
@@ -161,7 +161,7 @@ def main():
 
     # Generate and save stats JSON
     stats = generate_stats(tracks, team_ball_control, video_info)
-    stats_path = args.stats_output or args.output.replace('.avi', '_stats.json')
+    stats_path = args.stats_output or os.path.splitext(args.output)[0] + '_stats.json'
     with open(stats_path, 'w') as f:
         json.dump(stats, f, indent=2)
     print(f"Stats saved to: {stats_path}")
