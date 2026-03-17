@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Phase 2 context gathered
-last_updated: "2026-03-17T21:11:52.679Z"
+stopped_at: Completed 02-01-PLAN.md
+last_updated: "2026-03-17T21:51:28.751Z"
 last_activity: 2026-03-16 — Roadmap created
 progress:
   total_phases: 6
   completed_phases: 1
-  total_plans: 3
-  completed_plans: 3
+  total_plans: 7
+  completed_plans: 5
   percent: 33
 ---
 
@@ -53,6 +53,7 @@ Progress: [███░░░░░░░] 33%
 | Phase 01 P02 | 1 | 2 tasks | 2 files |
 | Phase 01-pipeline-fixes-and-validation P01 | 3 | 2 tasks | 5 files |
 | Phase 01 P03 | 15 | 2 tasks | 0 files |
+| Phase 02 P01 | 18 | 2 tasks | 6 files |
 
 ## Accumulated Context
 
@@ -73,6 +74,8 @@ Recent decisions affecting current work:
 - [Phase 01-03]: PIPE-04 satisfied: user confirmed all 5 detection quality criteria (player ellipses, persistent IDs, ball triangle, two team colors, possession overlay)
 - [Phase 01-03]: Speed values unrealistically high (268 km/h max) — known limitation of estimated pitch vertices; add disclaimer on demo site in Phase 6
 - [Phase 01-03]: Possession accuracy slightly off — 15-frame smoothing + estimated vertices are approximate by design; acceptable for Phase 2
+- [Phase 02-01]: generate_stats() players dict keyed by str(player_id) for JSON string-key convention
+- [Phase 02-01]: export_positions() uses round(fps) as sample interval for exact 1 Hz; positions_path strips _annotated suffix for clean filename
 
 ### Pending Todos
 
@@ -86,6 +89,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-17T21:11:52.674Z
-Stopped at: Phase 2 context gathered
-Resume file: .planning/phases/02-data-export-and-video-processing/02-CONTEXT.md
+Last session: 2026-03-17T21:51:28.746Z
+Stopped at: Completed 02-01-PLAN.md
+Resume file: None

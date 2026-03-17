@@ -14,15 +14,15 @@
 
 ### Data Export
 
-- [ ] **DATA-01**: Pipeline exports `positions.json` with per-player (x,y) coordinates downsampled to 1Hz for heatmap generation
+- [x] **DATA-01**: Pipeline exports `positions.json` with per-player (x,y) coordinates downsampled to 1Hz for heatmap generation
 - [ ] **DATA-02**: Pipeline generates team heatmap PNGs (one per team) using mplsoccer for each processed clip
-- [ ] **DATA-03**: Stats JSON schema includes possession %, per-player speed (max/avg km/h), per-player total distance (m), and team assignment
-- [ ] **DATA-04**: `manifest.json` committed to repo listing all processed clips with video URL, stats URL, heatmap URLs, and match metadata
+- [x] **DATA-03**: Stats JSON schema includes possession %, per-player speed (max/avg km/h), per-player total distance (m), and team assignment
+- [x] **DATA-04**: `manifest.json` committed to repo listing all processed clips with video URL, stats URL, heatmap URLs, and match metadata
 
 ### Video Hosting
 
-- [ ] **HOST-01**: Processed MP4 annotated videos uploaded to GitHub Releases (bypasses 100 MB Pages file limit)
-- [ ] **HOST-02**: Video URLs in manifest.json point to stable GitHub Release CDN URLs
+- [x] **HOST-01**: Processed MP4 annotated videos uploaded to GitHub Releases (bypasses 100 MB Pages file limit)
+- [x] **HOST-02**: Video URLs in manifest.json point to stable GitHub Release CDN URLs
 
 ### Demo Site
 
@@ -87,12 +87,12 @@
 | PIPE-02 | Phase 1 | Complete |
 | PIPE-03 | Phase 1 | Complete |
 | PIPE-04 | Phase 1 | Complete |
-| DATA-01 | Phase 2 | Pending |
+| DATA-01 | Phase 2 | Complete |
 | DATA-02 | Phase 2 | Pending |
-| DATA-03 | Phase 2 | Pending |
-| DATA-04 | Phase 2 | Pending |
-| HOST-01 | Phase 2 | Pending |
-| HOST-02 | Phase 2 | Pending |
+| DATA-03 | Phase 2 | Complete |
+| DATA-04 | Phase 2 | Complete |
+| HOST-01 | Phase 2 | Complete |
+| HOST-02 | Phase 2 | Complete |
 | SITE-01 | Phase 3 | Pending |
 | SITE-02 | Phase 3 | Pending |
 | SITE-03 | Phase 3 | Pending |
