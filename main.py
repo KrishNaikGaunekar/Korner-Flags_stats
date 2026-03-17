@@ -165,11 +165,17 @@ def main():
     with open(stats_path, 'w') as f:
         json.dump(stats, f, indent=2)
     print(f"Stats saved to: {stats_path}")
+
+    # Export positions JSON for heatmap generation
+    positions_path = os.path.splitext(args.output)[0].replace('_annotated', '') + '_positions.json'
+    export_positions(tracks, video_info, positions_path)
+    print(f"Positions saved to: {positions_path}")
+
     print("Done!")
 
 
 def generate_stats(tracks, team_ball_control, video_info):
-    """Generate summary statistics from the processed tracks."""
+    """Generate summary statistics from the processed tracks (DATA-03)."""
     total_frames = len(tracks['players'])
 
     # Possession stats
@@ -177,20 +183,29 @@ def generate_stats(tracks, team_ball_control, video_info):
     team_2_frames = int(np.sum(team_ball_control == 2))
     total_possession = team_1_frames + team_2_frames
 
-    # Player count
-    all_player_ids = set()
-    for frame_tracks in tracks['players']:
-        all_player_ids.update(frame_tracks.keys())
-
-    # Speed stats
-    max_speed = 0
-    player_distances = {}
+    # Collect per-player speed lists, distances, and teams across all frames
+    player_speeds = {}    # {pid: [speed1, speed2, ...]}
+    player_team = {}      # {pid: team_int}
+    player_distance = {}  # {pid: latest_distance}
     for frame_tracks in tracks['players']:
         for pid, info in frame_tracks.items():
-            if 'speed' in info:
-                max_speed = max(max_speed, info['speed'])
-            if 'distance' in info:
-                player_distances[pid] = info['distance']
+            if 'speed' in info and info['speed'] is not None:
+                player_speeds.setdefault(pid, []).append(info['speed'])
+            if 'distance' in info and info['distance'] is not None:
+                player_distance[pid] = info['distance']
+            if 'team' in info and info['team'] is not None:
+                player_team[pid] = info['team']
+
+    # Build per-player nested dict
+    players = {}
+    for pid in player_team:
+        speeds = player_speeds.get(pid, [])
+        players[str(pid)] = {
+            'team': int(player_team[pid]),
+            'distance_m': round(float(player_distance.get(pid, 0)), 1),
+            'max_speed_kmh': round(float(max(speeds)) if speeds else 0.0, 1),
+            'avg_speed_kmh': round(float(sum(speeds) / len(speeds)) if speeds else 0.0, 1),
+        }
 
     return {
         'video': {
@@ -203,14 +218,39 @@ def generate_stats(tracks, team_ball_control, video_info):
             'team_1_percent': round(team_1_frames / max(total_possession, 1) * 100, 1),
             'team_2_percent': round(team_2_frames / max(total_possession, 1) * 100, 1),
         },
-        'players': {
-            'total_detected': len(all_player_ids),
-            'max_speed_kmh': round(max_speed, 1),
-            'distances': {str(k): round(v, 1) for k, v in player_distances.items()},
-        }
+        'players': players,
     }
+
+
+def export_positions(tracks, video_info, output_path):
+    """Export per-player positions at 1 Hz for heatmap generation (DATA-01)."""
+    fps = video_info['fps']
+    sample_interval = round(fps)  # 1 Hz downsampling
+    records = []
+    for frame_num, player_track in enumerate(tracks['players']):
+        if frame_num % sample_interval != 0:
+            continue
+        second = int(frame_num / fps)
+        for player_id, info in player_track.items():
+            pos = info.get('position_transformed')
+            team = info.get('team')
+            if pos is None or team is None:
+                continue
+            records.append({
+                'second': second,
+                'player_id': int(player_id),
+                'x': round(float(pos[0]), 2),
+                'y': round(float(pos[1]), 2),
+                'team': int(team),
+            })
+    data = {
+        'fps': fps,
+        'sample_rate_hz': 1,
+        'positions': records,
+    }
+    with open(output_path, 'w') as f:
+        json.dump(data, f, indent=2)
 
 
 if __name__ == '__main__':
     main()
-
