@@ -33,9 +33,9 @@ Decimal phases appear between their surrounding integers in numeric order.
 **Plans:** 3/3 plans complete
 
 Plans:
-- [ ] 01-01-PLAN.md — Fix view transformer position key, camera movement estimator typo + mask, delete misspelled init files (PIPE-01, PIPE-02)
-- [ ] 01-02-PLAN.md — Rewrite save_video to H.264 MP4 via ffmpeg, update main.py defaults and stats path (PIPE-03)
-- [ ] 01-03-PLAN.md — Run pipeline on soccer clip and user validates detection quality (PIPE-04)
+- [x] 01-01-PLAN.md — Fix view transformer position key, camera movement estimator typo + mask, delete misspelled init files (PIPE-01, PIPE-02)
+- [x] 01-02-PLAN.md — Rewrite save_video to H.264 MP4 via ffmpeg, update main.py defaults and stats path (PIPE-03)
+- [x] 01-03-PLAN.md — Run pipeline on soccer clip and user validates detection quality (PIPE-04)
 
 ### Phase 2: Data Export and Video Processing
 **Goal**: All data artifacts for 2-3 NC State clips exist in stable, committed form — annotated MP4s on GitHub Releases, stats JSON and positions JSON in the repo, team heatmap PNGs generated, and manifest.json populated with real URLs
@@ -47,7 +47,13 @@ Plans:
   3. The stats JSON for each clip includes possession % per team, per-player max/avg speed (km/h), per-player total distance (m), and team assignment
   4. Annotated MP4 files are uploaded to GitHub Releases and accessible via stable CDN URLs (not Git LFS, not committed to repo tree)
   5. `manifest.json` committed to the repo lists each processed clip with its video URL, stats URL, heatmap URLs, and match metadata
-**Plans**: TBD
+**Plans:** 4 plans
+
+Plans:
+- [ ] 02-01-PLAN.md — Add positions.json export and restructure stats JSON to per-player format (DATA-01, DATA-03)
+- [ ] 02-02-PLAN.md — Create generate_heatmaps.py for team heatmap PNG generation via mplsoccer (DATA-02)
+- [ ] 02-03-PLAN.md — Create upload_release.py and data/manifest.json for GitHub Releases hosting (HOST-01, HOST-02, DATA-04)
+- [ ] 02-04-PLAN.md — End-to-end integration verification and visual checkpoint (all requirements)
 
 ### Phase 3: Site Scaffold and Video Playback
 **Goal**: A live GitHub Pages URL exists where a visitor can browse processed NC State clips and watch the annotated video with Plyr
@@ -97,7 +103,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Pipeline Fixes and Validation | 3/3 | Complete   | 2026-03-17 |
-| 2. Data Export and Video Processing | 0/TBD | Not started | - |
+| 2. Data Export and Video Processing | 0/4 | Planning complete | - |
 | 3. Site Scaffold and Video Playback | 0/TBD | Not started | - |
 | 4. Stats Visualizations | 0/TBD | Not started | - |
 | 5. Heatmap Visualizations | 0/TBD | Not started | - |
