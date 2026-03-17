@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Completed 01-pipeline-fixes-and-validation plan 01-01
-last_updated: "2026-03-17T20:29:15.317Z"
+stopped_at: "Checkpoint: 01-03 Task 2 - awaiting user visual verification of YOLO detection quality"
+last_updated: "2026-03-17T20:45:10.618Z"
 last_activity: 2026-03-16 — Roadmap created
 progress:
   total_phases: 6
-  completed_phases: 0
+  completed_phases: 1
   total_plans: 3
-  completed_plans: 2
+  completed_plans: 3
   percent: 33
 ---
 
@@ -68,6 +68,7 @@ Recent decisions affecting current work:
 - [Phase 01]: Use os.path.splitext for stats JSON path derivation so it works regardless of video extension
 - [Phase 01-pipeline-fixes-and-validation]: Proportional mask ratios (0.010, 0.469, 0.547) back-calculated from original 1920px calibration to support any frame width
 - [Phase 01-pipeline-fixes-and-validation]: position_adjusted is the correct key linking camera movement correction to ViewTransformer perspective transform
+- [Phase 01-pipeline-fixes-and-validation]: ffmpeg installed via winget Gyan.FFmpeg (system-level, not Python dependency) to enable H.264 MP4 output
 
 ### Pending Todos
 
@@ -81,6 +82,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-17T20:29:15.313Z
-Stopped at: Completed 01-pipeline-fixes-and-validation plan 01-01
+Last session: 2026-03-17T20:45:01.127Z
+Stopped at: Checkpoint: 01-03 Task 2 - awaiting user visual verification of YOLO detection quality
 Resume file: None
