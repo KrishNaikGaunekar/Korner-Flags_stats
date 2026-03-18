@@ -13,7 +13,7 @@ Starting from a working CLI pipeline, this roadmap delivers a polished static de
 Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Pipeline Fixes and Validation** - Fix two confirmed bugs and validate YOLO detection on NC State footage before any demo footage is processed (completed 2026-03-17)
-- [ ] **Phase 2: Data Export and Video Processing** - Generate all data artifacts (MP4, stats JSON, positions JSON, heatmap PNGs, manifest) needed by the site
+- [x] **Phase 2: Data Export and Video Processing** - Generate all data artifacts (MP4, stats JSON, positions JSON, heatmap PNGs, manifest) needed by the site (completed 2026-03-17)
 - [ ] **Phase 3: Site Scaffold and Video Playback** - Deploy GitHub Pages site with Astro and get annotated video playing from GitHub Releases
 - [ ] **Phase 4: Stats Visualizations** - Add possession and speed/distance panels to each clip page
 - [ ] **Phase 5: Heatmap Visualizations** - Embed per-team heatmap PNGs and optionally add browser-side interactive heatmap
@@ -47,7 +47,7 @@ Plans:
   3. The stats JSON for each clip includes possession % per team, per-player max/avg speed (km/h), per-player total distance (m), and team assignment
   4. Annotated MP4 files are uploaded to GitHub Releases and accessible via stable CDN URLs (not Git LFS, not committed to repo tree)
   5. `manifest.json` committed to the repo lists each processed clip with its video URL, stats URL, heatmap URLs, and match metadata
-**Plans:** 3/4 plans executed
+**Plans:** 4/4 plans complete
 
 Plans:
 - [ ] 02-01-PLAN.md — Add positions.json export and restructure stats JSON to per-player format (DATA-01, DATA-03)
@@ -63,7 +63,12 @@ Plans:
   1. Visiting the project URL shows an index page with a gallery of 2-3 NC State match cards (names, thumbnails or placeholders, links)
   2. Clicking a match card navigates to a match detail page where the annotated MP4 plays in a Plyr video player loaded from the GitHub Releases CDN URL
   3. GitHub Actions automatically rebuilds and deploys the site on every push to main without manual steps
-**Plans**: TBD
+**Plans:** 3 plans
+
+Plans:
+- [ ] 03-01-PLAN.md — Scaffold Astro project, migrate data files, extract thumbnails, create GitHub Actions workflow (SITE-01)
+- [ ] 03-02-PLAN.md — Build index gallery, clip detail pages, and Plyr video player components (SITE-02, SITE-03)
+- [ ] 03-03-PLAN.md — Enable GitHub Pages, deploy, and verify live site end-to-end (SITE-01, SITE-02, SITE-03)
 
 ### Phase 4: Stats Visualizations
 **Goal**: Each clip page displays possession percentage and per-player speed and distance data in a format a D1 coach recognizes and trusts
@@ -103,8 +108,8 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Pipeline Fixes and Validation | 3/3 | Complete   | 2026-03-17 |
-| 2. Data Export and Video Processing | 3/4 | In Progress|  |
-| 3. Site Scaffold and Video Playback | 0/TBD | Not started | - |
+| 2. Data Export and Video Processing | 4/4 | Complete   | 2026-03-17 |
+| 3. Site Scaffold and Video Playback | 0/3 | Planning complete | - |
 | 4. Stats Visualizations | 0/TBD | Not started | - |
 | 5. Heatmap Visualizations | 0/TBD | Not started | - |
 | 6. Polish and Demo Readiness | 0/TBD | Not started | - |
