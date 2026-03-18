@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Completed 02-02-PLAN.md
-last_updated: "2026-03-17T21:56:58.766Z"
+stopped_at: Completed 03-01-PLAN.md
+last_updated: "2026-03-18T16:17:01.533Z"
 last_activity: 2026-03-16 — Roadmap created
 progress:
   total_phases: 6
-  completed_phases: 1
-  total_plans: 7
-  completed_plans: 6
+  completed_phases: 2
+  total_plans: 10
+  completed_plans: 8
   percent: 33
 ---
 
@@ -55,6 +55,7 @@ Progress: [███░░░░░░░] 33%
 | Phase 01 P03 | 15 | 2 tasks | 0 files |
 | Phase 02 P01 | 18 | 2 tasks | 6 files |
 | Phase 02 P02 | 7 | 1 tasks | 3 files |
+| Phase 03 P01 | 3 | 3 tasks | 11 files |
 
 ## Accumulated Context
 
@@ -77,6 +78,8 @@ Recent decisions affecting current work:
 - [Phase 01-03]: Possession accuracy slightly off — 15-frame smoothing + estimated vertices are approximate by design; acceptable for Phase 2
 - [Phase 02-01]: generate_stats() players dict keyed by str(player_id) for JSON string-key convention
 - [Phase 02-01]: export_positions() uses round(fps) as sample interval for exact 1 Hz; positions_path strips _annotated suffix for clean filename
+- [Phase 03-01]: Manual Astro scaffold used instead of npm create astro due to interactive TTY requirement
+- [Phase 03-01]: trailingSlash: always set in astro.config.mjs to guarantee clean BASE_URL trailing slash for public asset paths
 
 ### Pending Todos
 
@@ -90,6 +93,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-17T21:56:58.762Z
-Stopped at: Completed 02-02-PLAN.md
+Last session: 2026-03-18T16:17:01.527Z
+Stopped at: Completed 03-01-PLAN.md
 Resume file: None

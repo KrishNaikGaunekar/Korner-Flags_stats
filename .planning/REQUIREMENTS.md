@@ -26,7 +26,7 @@
 
 ### Demo Site
 
-- [ ] **SITE-01**: GitHub Pages site deployed and accessible at project URL
+- [x] **SITE-01**: GitHub Pages site deployed and accessible at project URL
 - [ ] **SITE-02**: Index page shows gallery of all processed NC State clips (manifest-driven, 2-3 clips)
 - [ ] **SITE-03**: Each clip page shows annotated video player (Plyr) with H.264 MP4 from GitHub Releases
 - [ ] **SITE-04**: Each clip page shows stats panel: possession % (per team), per-player speed and distance
@@ -93,7 +93,7 @@
 | DATA-04 | Phase 2 | Complete |
 | HOST-01 | Phase 2 | Complete |
 | HOST-02 | Phase 2 | Complete |
-| SITE-01 | Phase 3 | Pending |
+| SITE-01 | Phase 3 | Complete |
 | SITE-02 | Phase 3 | Pending |
 | SITE-03 | Phase 3 | Pending |
 | SITE-04 | Phase 4 | Pending |
