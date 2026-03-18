@@ -1,0 +1,266 @@
+{
+  "video": {
+    "fps": 25.0,
+    "resolution": "1920x1080",
+    "total_frames": 750,
+    "duration_seconds": 30.0
+  },
+  "possession": {
+    "team_1_percent": 37.9,
+    "team_2_percent": 62.1
+  },
+  "players": {
+    "1": {
+      "team": 1,
+      "distance_m": 74.2,
+      "max_speed_kmh": 63.3,
+      "avg_speed_kmh": 8.9
+    },
+    "3": {
+      "team": 2,
+      "distance_m": 75.2,
+      "max_speed_kmh": 91.8,
+      "avg_speed_kmh": 9.0
+    },
+    "4": {
+      "team": 2,
+      "distance_m": 86.0,
+      "max_speed_kmh": 122.1,
+      "avg_speed_kmh": 10.3
+    },
+    "5": {
+      "team": 2,
+      "distance_m": 82.6,
+      "max_speed_kmh": 103.9,
+      "avg_speed_kmh": 10.1
+    },
+    "6": {
+      "team": 1,
+      "distance_m": 88.2,
+      "max_speed_kmh": 116.4,
+      "avg_speed_kmh": 10.7
+    },
+    "7": {
+      "team": 1,
+      "distance_m": 34.6,
+      "max_speed_kmh": 121.8,
+      "avg_speed_kmh": 11.8
+    },
+    "8": {
+      "team": 2,
+      "distance_m": 84.2,
+      "max_speed_kmh": 113.7,
+      "avg_speed_kmh": 10.4
+    },
+    "9": {
+      "team": 2,
+      "distance_m": 100.6,
+      "max_speed_kmh": 152.5,
+      "avg_speed_kmh": 12.1
+    },
+    "10": {
+      "team": 1,
+      "distance_m": 88.8,
+      "max_speed_kmh": 98.8,
+      "avg_speed_kmh": 10.7
+    },
+    "11": {
+      "team": 2,
+      "distance_m": 96.1,
+      "max_speed_kmh": 111.6,
+      "avg_speed_kmh": 11.5
+    },
+    "12": {
+      "team": 1,
+      "distance_m": 123.6,
+      "max_speed_kmh": 206.8,
+      "avg_speed_kmh": 14.9
+    },
+    "13": {
+      "team": 2,
+      "distance_m": 76.4,
+      "max_speed_kmh": 83.0,
+      "avg_speed_kmh": 9.1
+    },
+    "14": {
+      "team": 2,
+      "distance_m": 96.2,
+      "max_speed_kmh": 143.2,
+      "avg_speed_kmh": 11.6
+    },
+    "15": {
+      "team": 1,
+      "distance_m": 73.6,
+      "max_speed_kmh": 73.6,
+      "avg_speed_kmh": 8.8
+    },
+    "16": {
+      "team": 1,
+      "distance_m": 34.9,
+      "max_speed_kmh": 98.1,
+      "avg_speed_kmh": 10.4
+    },
+    "17": {
+      "team": 1,
+      "distance_m": 91.4,
+      "max_speed_kmh": 163.6,
+      "avg_speed_kmh": 11.4
+    },
+    "19": {
+      "team": 1,
+      "distance_m": 89.3,
+      "max_speed_kmh": 124.6,
+      "avg_speed_kmh": 10.7
+    },
+    "20": {
+      "team": 2,
+      "distance_m": 2.2,
+      "max_speed_kmh": 26.4,
+      "avg_speed_kmh": 9.9
+    },
+    "21": {
+      "team": 2,
+      "distance_m": 121.8,
+      "max_speed_kmh": 183.9,
+      "avg_speed_kmh": 14.6
+    },
+    "24": {
+      "team": 1,
+      "distance_m": 61.3,
+      "max_speed_kmh": 268.2,
+      "avg_speed_kmh": 21.7
+    },
+    "25": {
+      "team": 2,
+      "distance_m": 1.6,
+      "max_speed_kmh": 17.1,
+      "avg_speed_kmh": 9.3
+    },
+    "34": {
+      "team": 2,
+      "distance_m": 0.0,
+      "max_speed_kmh": 0.0,
+      "avg_speed_kmh": 0.0
+    },
+    "51": {
+      "team": 2,
+      "distance_m": 72.4,
+      "max_speed_kmh": 79.0,
+      "avg_speed_kmh": 9.1
+    },
+    "18": {
+      "team": 2,
+      "distance_m": 0.0,
+      "max_speed_kmh": 0.0,
+      "avg_speed_kmh": 0.0
+    },
+    "103": {
+      "team": 2,
+      "distance_m": 3.8,
+      "max_speed_kmh": 37.4,
+      "avg_speed_kmh": 22.7
+    },
+    "116": {
+      "team": 2,
+      "distance_m": 17.1,
+      "max_speed_kmh": 27.8,
+      "avg_speed_kmh": 7.6
+    },
+    "135": {
+      "team": 2,
+      "distance_m": 0.0,
+      "max_speed_kmh": 0.0,
+      "avg_speed_kmh": 0.0
+    },
+    "139": {
+      "team": 2,
+      "distance_m": 0.0,
+      "max_speed_kmh": 0.0,
+      "avg_speed_kmh": 0.0
+    },
+    "143": {
+      "team": 2,
+      "distance_m": 0.0,
+      "max_speed_kmh": 0.0,
+      "avg_speed_kmh": 0.0
+    },
+    "144": {
+      "team": 2,
+      "distance_m": 0.0,
+      "max_speed_kmh": 0.0,
+      "avg_speed_kmh": 0.0
+    },
+    "149": {
+      "team": 2,
+      "distance_m": 0.1,
+      "max_speed_kmh": 2.6,
+      "avg_speed_kmh": 2.6
+    },
+    "150": {
+      "team": 1,
+      "distance_m": 0.0,
+      "max_speed_kmh": 0.0,
+      "avg_speed_kmh": 0.0
+    },
+    "153": {
+      "team": 2,
+      "distance_m": 59.0,
+      "max_speed_kmh": 124.5,
+      "avg_speed_kmh": 11.1
+    },
+    "160": {
+      "team": 2,
+      "distance_m": 39.9,
+      "max_speed_kmh": 99.2,
+      "avg_speed_kmh": 19.9
+    },
+    "159": {
+      "team": 2,
+      "distance_m": 0.2,
+      "max_speed_kmh": 3.4,
+      "avg_speed_kmh": 3.4
+    },
+    "166": {
+      "team": 1,
+      "distance_m": 86.6,
+      "max_speed_kmh": 196.3,
+      "avg_speed_kmh": 17.7
+    },
+    "322": {
+      "team": 2,
+      "distance_m": 2.5,
+      "max_speed_kmh": 16.8,
+      "avg_speed_kmh": 14.8
+    },
+    "329": {
+      "team": 2,
+      "distance_m": 25.7,
+      "max_speed_kmh": 42.2,
+      "avg_speed_kmh": 9.1
+    },
+    "344": {
+      "team": 2,
+      "distance_m": 17.1,
+      "max_speed_kmh": 16.4,
+      "avg_speed_kmh": 6.6
+    },
+    "366": {
+      "team": 2,
+      "distance_m": 0.0,
+      "max_speed_kmh": 0.0,
+      "avg_speed_kmh": 0.0
+    },
+    "373": {
+      "team": 2,
+      "distance_m": 0.0,
+      "max_speed_kmh": 0.0,
+      "avg_speed_kmh": 0.0
+    },
+    "392": {
+      "team": 1,
+      "distance_m": 0.0,
+      "max_speed_kmh": 0.0,
+      "avg_speed_kmh": 0.0
+    }
+  }
+}

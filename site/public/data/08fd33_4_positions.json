@@ -1,0 +1,4339 @@
+{
+  "fps": 25.0,
+  "sample_rate_hz": 1,
+  "positions": [
+    {
+      "second": 0,
+      "player_id": 1,
+      "x": 20.46,
+      "y": 64.86,
+      "team": 1
+    },
+    {
+      "second": 0,
+      "player_id": 3,
+      "x": 13.46,
+      "y": 52.82,
+      "team": 2
+    },
+    {
+      "second": 0,
+      "player_id": 4,
+      "x": 19.43,
+      "y": 37.24,
+      "team": 2
+    },
+    {
+      "second": 0,
+      "player_id": 5,
+      "x": 28.35,
+      "y": 53.94,
+      "team": 2
+    },
+    {
+      "second": 0,
+      "player_id": 6,
+      "x": 0.71,
+      "y": 40.48,
+      "team": 1
+    },
+    {
+      "second": 0,
+      "player_id": 7,
+      "x": 26.12,
+      "y": 35.63,
+      "team": 1
+    },
+    {
+      "second": 0,
+      "player_id": 8,
+      "x": 27.72,
+      "y": 37.92,
+      "team": 2
+    },
+    {
+      "second": 0,
+      "player_id": 9,
+      "x": 18.45,
+      "y": 24.47,
+      "team": 2
+    },
+    {
+      "second": 0,
+      "player_id": 10,
+      "x": 8.51,
+      "y": 48.4,
+      "team": 1
+    },
+    {
+      "second": 0,
+      "player_id": 11,
+      "x": 3.1,
+      "y": 38.81,
+      "team": 2
+    },
+    {
+      "second": 0,
+      "player_id": 12,
+      "x": 4.19,
+      "y": 12.73,
+      "team": 1
+    },
+    {
+      "second": 0,
+      "player_id": 13,
+      "x": 7.0,
+      "y": 55.38,
+      "team": 2
+    },
+    {
+      "second": 0,
+      "player_id": 14,
+      "x": 28.71,
+      "y": 31.22,
+      "team": 2
+    },
+    {
+      "second": 0,
+      "player_id": 15,
+      "x": 3.74,
+      "y": 56.94,
+      "team": 1
+    },
+    {
+      "second": 0,
+      "player_id": 16,
+      "x": 17.77,
+      "y": 58.35,
+      "team": 1
+    },
+    {
+      "second": 0,
+      "player_id": 17,
+      "x": 27.04,
+      "y": 24.69,
+      "team": 1
+    },
+    {
+      "second": 0,
+      "player_id": 19,
+      "x": 14.51,
+      "y": 32.11,
+      "team": 1
+    },
+    {
+      "second": 0,
+      "player_id": 20,
+      "x": 47.4,
+      "y": 31.9,
+      "team": 2
+    },
+    {
+      "second": 0,
+      "player_id": 21,
+      "x": 27.07,
+      "y": 15.69,
+      "team": 2
+    },
+    {
+      "second": 0,
+      "player_id": 24,
+      "x": 25.56,
+      "y": -2.16,
+      "team": 1
+    },
+    {
+      "second": 0,
+      "player_id": 25,
+      "x": 17.96,
+      "y": 59.16,
+      "team": 2
+    },
+    {
+      "second": 1,
+      "player_id": 6,
+      "x": 1.16,
+      "y": 41.3,
+      "team": 1
+    },
+    {
+      "second": 1,
+      "player_id": 15,
+      "x": 3.22,
+      "y": 58.76,
+      "team": 1
+    },
+    {
+      "second": 1,
+      "player_id": 13,
+      "x": 7.78,
+      "y": 56.03,
+      "team": 2
+    },
+    {
+      "second": 1,
+      "player_id": 12,
+      "x": 4.15,
+      "y": 14.15,
+      "team": 1
+    },
+    {
+      "second": 1,
+      "player_id": 3,
+      "x": 16.58,
+      "y": 55.86,
+      "team": 2
+    },
+    {
+      "second": 1,
+      "player_id": 9,
+      "x": 19.71,
+      "y": 25.72,
+      "team": 2
+    },
+    {
+      "second": 1,
+      "player_id": 5,
+      "x": 27.77,
+      "y": 57.97,
+      "team": 2
+    },
+    {
+      "second": 1,
+      "player_id": 10,
+      "x": 10.54,
+      "y": 50.9,
+      "team": 1
+    },
+    {
+      "second": 1,
+      "player_id": 7,
+      "x": 27.14,
+      "y": 36.53,
+      "team": 1
+    },
+    {
+      "second": 1,
+      "player_id": 1,
+      "x": 16.45,
+      "y": 65.15,
+      "team": 1
+    },
+    {
+      "second": 1,
+      "player_id": 11,
+      "x": 3.9,
+      "y": 39.64,
+      "team": 2
+    },
+    {
+      "second": 1,
+      "player_id": 25,
+      "x": 18.88,
+      "y": 62.67,
+      "team": 2
+    },
+    {
+      "second": 1,
+      "player_id": 4,
+      "x": 20.04,
+      "y": 39.53,
+      "team": 2
+    },
+    {
+      "second": 1,
+      "player_id": 8,
+      "x": 29.81,
+      "y": 39.1,
+      "team": 2
+    },
+    {
+      "second": 1,
+      "player_id": 21,
+      "x": 28.08,
+      "y": 17.68,
+      "team": 2
+    },
+    {
+      "second": 1,
+      "player_id": 16,
+      "x": 20.01,
+      "y": 58.72,
+      "team": 1
+    },
+    {
+      "second": 1,
+      "player_id": 14,
+      "x": 29.49,
+      "y": 32.43,
+      "team": 2
+    },
+    {
+      "second": 1,
+      "player_id": 17,
+      "x": 28.84,
+      "y": 25.46,
+      "team": 1
+    },
+    {
+      "second": 1,
+      "player_id": 19,
+      "x": 14.71,
+      "y": 33.37,
+      "team": 1
+    },
+    {
+      "second": 1,
+      "player_id": 24,
+      "x": 26.24,
+      "y": -1.3,
+      "team": 1
+    },
+    {
+      "second": 2,
+      "player_id": 8,
+      "x": 30.84,
+      "y": 41.49,
+      "team": 2
+    },
+    {
+      "second": 2,
+      "player_id": 5,
+      "x": 26.07,
+      "y": 58.8,
+      "team": 2
+    },
+    {
+      "second": 2,
+      "player_id": 17,
+      "x": 29.81,
+      "y": 26.69,
+      "team": 1
+    },
+    {
+      "second": 2,
+      "player_id": 4,
+      "x": 20.14,
+      "y": 41.62,
+      "team": 2
+    },
+    {
+      "second": 2,
+      "player_id": 51,
+      "x": 15.91,
+      "y": 63.45,
+      "team": 2
+    },
+    {
+      "second": 2,
+      "player_id": 14,
+      "x": 30.62,
+      "y": 33.15,
+      "team": 2
+    },
+    {
+      "second": 2,
+      "player_id": 16,
+      "x": 20.1,
+      "y": 57.12,
+      "team": 1
+    },
+    {
+      "second": 2,
+      "player_id": 19,
+      "x": 15.73,
+      "y": 33.79,
+      "team": 1
+    },
+    {
+      "second": 2,
+      "player_id": 10,
+      "x": 12.05,
+      "y": 53.85,
+      "team": 1
+    },
+    {
+      "second": 2,
+      "player_id": 6,
+      "x": 1.2,
+      "y": 41.94,
+      "team": 1
+    },
+    {
+      "second": 2,
+      "player_id": 11,
+      "x": 4.78,
+      "y": 40.38,
+      "team": 2
+    },
+    {
+      "second": 2,
+      "player_id": 12,
+      "x": 5.2,
+      "y": 13.97,
+      "team": 1
+    },
+    {
+      "second": 2,
+      "player_id": 1,
+      "x": 11.81,
+      "y": 63.93,
+      "team": 1
+    },
+    {
+      "second": 2,
+      "player_id": 3,
+      "x": 16.24,
+      "y": 55.6,
+      "team": 2
+    },
+    {
+      "second": 2,
+      "player_id": 7,
+      "x": 28.09,
+      "y": 37.17,
+      "team": 1
+    },
+    {
+      "second": 2,
+      "player_id": 21,
+      "x": 30.1,
+      "y": 19.78,
+      "team": 2
+    },
+    {
+      "second": 2,
+      "player_id": 9,
+      "x": 20.66,
+      "y": 27.04,
+      "team": 2
+    },
+    {
+      "second": 2,
+      "player_id": 15,
+      "x": 1.35,
+      "y": 59.02,
+      "team": 1
+    },
+    {
+      "second": 2,
+      "player_id": 24,
+      "x": 27.87,
+      "y": -1.82,
+      "team": 1
+    },
+    {
+      "second": 2,
+      "player_id": 13,
+      "x": 9.1,
+      "y": 56.34,
+      "team": 2
+    },
+    {
+      "second": 3,
+      "player_id": 3,
+      "x": 17.03,
+      "y": 55.34,
+      "team": 2
+    },
+    {
+      "second": 3,
+      "player_id": 8,
+      "x": 31.66,
+      "y": 43.6,
+      "team": 2
+    },
+    {
+      "second": 3,
+      "player_id": 21,
+      "x": 32.89,
+      "y": 20.37,
+      "team": 2
+    },
+    {
+      "second": 3,
+      "player_id": 7,
+      "x": 30.21,
+      "y": 37.52,
+      "team": 1
+    },
+    {
+      "second": 3,
+      "player_id": 16,
+      "x": 22.21,
+      "y": 54.35,
+      "team": 1
+    },
+    {
+      "second": 3,
+      "player_id": 14,
+      "x": 32.87,
+      "y": 33.51,
+      "team": 2
+    },
+    {
+      "second": 3,
+      "player_id": 17,
+      "x": 32.38,
+      "y": 27.39,
+      "team": 1
+    },
+    {
+      "second": 3,
+      "player_id": 10,
+      "x": 13.92,
+      "y": 54.8,
+      "team": 1
+    },
+    {
+      "second": 3,
+      "player_id": 13,
+      "x": 7.49,
+      "y": 56.97,
+      "team": 2
+    },
+    {
+      "second": 3,
+      "player_id": 15,
+      "x": 0.45,
+      "y": 58.67,
+      "team": 1
+    },
+    {
+      "second": 3,
+      "player_id": 4,
+      "x": 21.09,
+      "y": 41.36,
+      "team": 2
+    },
+    {
+      "second": 3,
+      "player_id": 12,
+      "x": 8.78,
+      "y": 12.52,
+      "team": 1
+    },
+    {
+      "second": 3,
+      "player_id": 11,
+      "x": 6.44,
+      "y": 40.57,
+      "team": 2
+    },
+    {
+      "second": 3,
+      "player_id": 51,
+      "x": 14.45,
+      "y": 62.19,
+      "team": 2
+    },
+    {
+      "second": 3,
+      "player_id": 19,
+      "x": 17.72,
+      "y": 34.47,
+      "team": 1
+    },
+    {
+      "second": 3,
+      "player_id": 6,
+      "x": 1.64,
+      "y": 40.91,
+      "team": 1
+    },
+    {
+      "second": 3,
+      "player_id": 9,
+      "x": 22.86,
+      "y": 27.81,
+      "team": 2
+    },
+    {
+      "second": 3,
+      "player_id": 1,
+      "x": 10.06,
+      "y": 63.33,
+      "team": 1
+    },
+    {
+      "second": 3,
+      "player_id": 5,
+      "x": 24.98,
+      "y": 57.28,
+      "team": 2
+    },
+    {
+      "second": 3,
+      "player_id": 24,
+      "x": 32.3,
+      "y": -2.52,
+      "team": 1
+    },
+    {
+      "second": 4,
+      "player_id": 51,
+      "x": 16.78,
+      "y": 59.63,
+      "team": 2
+    },
+    {
+      "second": 4,
+      "player_id": 17,
+      "x": 32.19,
+      "y": 29.89,
+      "team": 1
+    },
+    {
+      "second": 4,
+      "player_id": 15,
+      "x": 0.71,
+      "y": 55.48,
+      "team": 1
+    },
+    {
+      "second": 4,
+      "player_id": 7,
+      "x": 30.28,
+      "y": 39.2,
+      "team": 1
+    },
+    {
+      "second": 4,
+      "player_id": 5,
+      "x": 24.85,
+      "y": 53.58,
+      "team": 2
+    },
+    {
+      "second": 4,
+      "player_id": 16,
+      "x": 23.93,
+      "y": 51.89,
+      "team": 1
+    },
+    {
+      "second": 4,
+      "player_id": 19,
+      "x": 18.18,
+      "y": 35.19,
+      "team": 1
+    },
+    {
+      "second": 4,
+      "player_id": 1,
+      "x": 10.0,
+      "y": 62.52,
+      "team": 1
+    },
+    {
+      "second": 4,
+      "player_id": 13,
+      "x": 6.0,
+      "y": 53.75,
+      "team": 2
+    },
+    {
+      "second": 4,
+      "player_id": 3,
+      "x": 17.17,
+      "y": 53.55,
+      "team": 2
+    },
+    {
+      "second": 4,
+      "player_id": 24,
+      "x": 33.81,
+      "y": 4.71,
+      "team": 1
+    },
+    {
+      "second": 4,
+      "player_id": 10,
+      "x": 14.79,
+      "y": 53.02,
+      "team": 1
+    },
+    {
+      "second": 4,
+      "player_id": 4,
+      "x": 20.69,
+      "y": 40.41,
+      "team": 2
+    },
+    {
+      "second": 4,
+      "player_id": 12,
+      "x": 13.35,
+      "y": 15.5,
+      "team": 1
+    },
+    {
+      "second": 4,
+      "player_id": 9,
+      "x": 23.42,
+      "y": 29.23,
+      "team": 2
+    },
+    {
+      "second": 4,
+      "player_id": 8,
+      "x": 29.91,
+      "y": 45.21,
+      "team": 2
+    },
+    {
+      "second": 4,
+      "player_id": 6,
+      "x": 3.47,
+      "y": 38.6,
+      "team": 1
+    },
+    {
+      "second": 4,
+      "player_id": 21,
+      "x": 32.42,
+      "y": 25.0,
+      "team": 2
+    },
+    {
+      "second": 4,
+      "player_id": 11,
+      "x": 7.38,
+      "y": 39.71,
+      "team": 2
+    },
+    {
+      "second": 4,
+      "player_id": 14,
+      "x": 31.92,
+      "y": 34.05,
+      "team": 2
+    },
+    {
+      "second": 5,
+      "player_id": 1,
+      "x": 13.51,
+      "y": 60.2,
+      "team": 1
+    },
+    {
+      "second": 5,
+      "player_id": 51,
+      "x": 21.97,
+      "y": 57.28,
+      "team": 2
+    },
+    {
+      "second": 5,
+      "player_id": 3,
+      "x": 20.62,
+      "y": 50.61,
+      "team": 2
+    },
+    {
+      "second": 5,
+      "player_id": 6,
+      "x": 9.36,
+      "y": 36.29,
+      "team": 1
+    },
+    {
+      "second": 5,
+      "player_id": 13,
+      "x": 8.47,
+      "y": 49.23,
+      "team": 2
+    },
+    {
+      "second": 5,
+      "player_id": 4,
+      "x": 23.59,
+      "y": 38.41,
+      "team": 2
+    },
+    {
+      "second": 5,
+      "player_id": 8,
+      "x": 31.94,
+      "y": 43.96,
+      "team": 2
+    },
+    {
+      "second": 5,
+      "player_id": 12,
+      "x": 20.62,
+      "y": 18.02,
+      "team": 1
+    },
+    {
+      "second": 5,
+      "player_id": 10,
+      "x": 18.65,
+      "y": 50.07,
+      "team": 1
+    },
+    {
+      "second": 5,
+      "player_id": 15,
+      "x": 4.94,
+      "y": 50.18,
+      "team": 1
+    },
+    {
+      "second": 5,
+      "player_id": 19,
+      "x": 21.78,
+      "y": 35.56,
+      "team": 1
+    },
+    {
+      "second": 5,
+      "player_id": 21,
+      "x": 35.26,
+      "y": 26.66,
+      "team": 2
+    },
+    {
+      "second": 5,
+      "player_id": 11,
+      "x": 12.0,
+      "y": 37.84,
+      "team": 2
+    },
+    {
+      "second": 5,
+      "player_id": 14,
+      "x": 33.51,
+      "y": 35.55,
+      "team": 2
+    },
+    {
+      "second": 5,
+      "player_id": 7,
+      "x": 32.99,
+      "y": 40.1,
+      "team": 1
+    },
+    {
+      "second": 5,
+      "player_id": 103,
+      "x": -3.35,
+      "y": 33.79,
+      "team": 2
+    },
+    {
+      "second": 5,
+      "player_id": 9,
+      "x": 26.78,
+      "y": 29.62,
+      "team": 2
+    },
+    {
+      "second": 5,
+      "player_id": 24,
+      "x": 38.06,
+      "y": 12.3,
+      "team": 1
+    },
+    {
+      "second": 5,
+      "player_id": 16,
+      "x": 27.87,
+      "y": 50.19,
+      "team": 1
+    },
+    {
+      "second": 5,
+      "player_id": 17,
+      "x": 34.7,
+      "y": 32.22,
+      "team": 1
+    },
+    {
+      "second": 5,
+      "player_id": 5,
+      "x": 27.94,
+      "y": 50.54,
+      "team": 2
+    },
+    {
+      "second": 6,
+      "player_id": 10,
+      "x": 20.72,
+      "y": 48.61,
+      "team": 1
+    },
+    {
+      "second": 6,
+      "player_id": 8,
+      "x": 33.61,
+      "y": 43.57,
+      "team": 2
+    },
+    {
+      "second": 6,
+      "player_id": 4,
+      "x": 25.03,
+      "y": 37.67,
+      "team": 2
+    },
+    {
+      "second": 6,
+      "player_id": 51,
+      "x": 25.09,
+      "y": 57.38,
+      "team": 2
+    },
+    {
+      "second": 6,
+      "player_id": 13,
+      "x": 9.86,
+      "y": 47.15,
+      "team": 2
+    },
+    {
+      "second": 6,
+      "player_id": 5,
+      "x": 30.24,
+      "y": 49.55,
+      "team": 2
+    },
+    {
+      "second": 6,
+      "player_id": 15,
+      "x": 6.79,
+      "y": 48.92,
+      "team": 1
+    },
+    {
+      "second": 6,
+      "player_id": 3,
+      "x": 22.24,
+      "y": 49.73,
+      "team": 2
+    },
+    {
+      "second": 6,
+      "player_id": 1,
+      "x": 15.26,
+      "y": 60.17,
+      "team": 1
+    },
+    {
+      "second": 6,
+      "player_id": 21,
+      "x": 37.39,
+      "y": 27.21,
+      "team": 2
+    },
+    {
+      "second": 6,
+      "player_id": 11,
+      "x": 14.8,
+      "y": 36.18,
+      "team": 2
+    },
+    {
+      "second": 6,
+      "player_id": 12,
+      "x": 23.38,
+      "y": 18.16,
+      "team": 1
+    },
+    {
+      "second": 6,
+      "player_id": 6,
+      "x": 12.06,
+      "y": 36.03,
+      "team": 1
+    },
+    {
+      "second": 6,
+      "player_id": 17,
+      "x": 35.96,
+      "y": 35.25,
+      "team": 1
+    },
+    {
+      "second": 6,
+      "player_id": 19,
+      "x": 23.61,
+      "y": 35.43,
+      "team": 1
+    },
+    {
+      "second": 6,
+      "player_id": 9,
+      "x": 28.44,
+      "y": 29.23,
+      "team": 2
+    },
+    {
+      "second": 6,
+      "player_id": 16,
+      "x": 30.87,
+      "y": 49.58,
+      "team": 1
+    },
+    {
+      "second": 6,
+      "player_id": 14,
+      "x": 34.78,
+      "y": 35.68,
+      "team": 2
+    },
+    {
+      "second": 6,
+      "player_id": 7,
+      "x": 34.93,
+      "y": 40.8,
+      "team": 1
+    },
+    {
+      "second": 6,
+      "player_id": 24,
+      "x": 41.67,
+      "y": 14.94,
+      "team": 1
+    },
+    {
+      "second": 6,
+      "player_id": 116,
+      "x": -0.56,
+      "y": 33.77,
+      "team": 2
+    },
+    {
+      "second": 7,
+      "player_id": 16,
+      "x": 31.18,
+      "y": 48.5,
+      "team": 1
+    },
+    {
+      "second": 7,
+      "player_id": 3,
+      "x": 21.96,
+      "y": 47.57,
+      "team": 2
+    },
+    {
+      "second": 7,
+      "player_id": 15,
+      "x": 6.35,
+      "y": 48.61,
+      "team": 1
+    },
+    {
+      "second": 7,
+      "player_id": 1,
+      "x": 15.17,
+      "y": 59.82,
+      "team": 1
+    },
+    {
+      "second": 7,
+      "player_id": 51,
+      "x": 25.26,
+      "y": 56.61,
+      "team": 2
+    },
+    {
+      "second": 7,
+      "player_id": 13,
+      "x": 10.23,
+      "y": 44.6,
+      "team": 2
+    },
+    {
+      "second": 7,
+      "player_id": 5,
+      "x": 29.66,
+      "y": 47.95,
+      "team": 2
+    },
+    {
+      "second": 7,
+      "player_id": 10,
+      "x": 20.5,
+      "y": 46.06,
+      "team": 1
+    },
+    {
+      "second": 7,
+      "player_id": 17,
+      "x": 34.44,
+      "y": 36.24,
+      "team": 1
+    },
+    {
+      "second": 7,
+      "player_id": 12,
+      "x": 21.95,
+      "y": 15.97,
+      "team": 1
+    },
+    {
+      "second": 7,
+      "player_id": 14,
+      "x": 34.6,
+      "y": 33.97,
+      "team": 2
+    },
+    {
+      "second": 7,
+      "player_id": 4,
+      "x": 24.27,
+      "y": 35.18,
+      "team": 2
+    },
+    {
+      "second": 7,
+      "player_id": 11,
+      "x": 15.6,
+      "y": 33.77,
+      "team": 2
+    },
+    {
+      "second": 7,
+      "player_id": 9,
+      "x": 27.4,
+      "y": 26.88,
+      "team": 2
+    },
+    {
+      "second": 7,
+      "player_id": 6,
+      "x": 12.17,
+      "y": 35.03,
+      "team": 1
+    },
+    {
+      "second": 7,
+      "player_id": 21,
+      "x": 36.46,
+      "y": 25.81,
+      "team": 2
+    },
+    {
+      "second": 7,
+      "player_id": 7,
+      "x": 34.75,
+      "y": 39.41,
+      "team": 1
+    },
+    {
+      "second": 7,
+      "player_id": 19,
+      "x": 22.94,
+      "y": 33.72,
+      "team": 1
+    },
+    {
+      "second": 7,
+      "player_id": 8,
+      "x": 32.7,
+      "y": 41.28,
+      "team": 2
+    },
+    {
+      "second": 7,
+      "player_id": 24,
+      "x": 41.96,
+      "y": 14.19,
+      "team": 1
+    },
+    {
+      "second": 7,
+      "player_id": 116,
+      "x": -0.3,
+      "y": 34.14,
+      "team": 2
+    },
+    {
+      "second": 8,
+      "player_id": 1,
+      "x": 14.62,
+      "y": 59.31,
+      "team": 1
+    },
+    {
+      "second": 8,
+      "player_id": 16,
+      "x": 30.54,
+      "y": 47.39,
+      "team": 1
+    },
+    {
+      "second": 8,
+      "player_id": 3,
+      "x": 21.64,
+      "y": 45.55,
+      "team": 2
+    },
+    {
+      "second": 8,
+      "player_id": 13,
+      "x": 10.46,
+      "y": 43.39,
+      "team": 2
+    },
+    {
+      "second": 8,
+      "player_id": 5,
+      "x": 28.53,
+      "y": 46.55,
+      "team": 2
+    },
+    {
+      "second": 8,
+      "player_id": 10,
+      "x": 19.73,
+      "y": 43.51,
+      "team": 1
+    },
+    {
+      "second": 8,
+      "player_id": 6,
+      "x": 11.54,
+      "y": 34.23,
+      "team": 1
+    },
+    {
+      "second": 8,
+      "player_id": 15,
+      "x": 6.23,
+      "y": 49.49,
+      "team": 1
+    },
+    {
+      "second": 8,
+      "player_id": 51,
+      "x": 24.44,
+      "y": 56.18,
+      "team": 2
+    },
+    {
+      "second": 8,
+      "player_id": 12,
+      "x": 19.69,
+      "y": 14.87,
+      "team": 1
+    },
+    {
+      "second": 8,
+      "player_id": 7,
+      "x": 33.87,
+      "y": 38.08,
+      "team": 1
+    },
+    {
+      "second": 8,
+      "player_id": 4,
+      "x": 23.45,
+      "y": 33.68,
+      "team": 2
+    },
+    {
+      "second": 8,
+      "player_id": 11,
+      "x": 14.98,
+      "y": 32.93,
+      "team": 2
+    },
+    {
+      "second": 8,
+      "player_id": 19,
+      "x": 21.87,
+      "y": 32.65,
+      "team": 1
+    },
+    {
+      "second": 8,
+      "player_id": 9,
+      "x": 25.59,
+      "y": 24.91,
+      "team": 2
+    },
+    {
+      "second": 8,
+      "player_id": 17,
+      "x": 32.27,
+      "y": 37.08,
+      "team": 1
+    },
+    {
+      "second": 8,
+      "player_id": 14,
+      "x": 34.05,
+      "y": 32.41,
+      "team": 2
+    },
+    {
+      "second": 8,
+      "player_id": 8,
+      "x": 31.37,
+      "y": 39.49,
+      "team": 2
+    },
+    {
+      "second": 8,
+      "player_id": 21,
+      "x": 35.38,
+      "y": 24.51,
+      "team": 2
+    },
+    {
+      "second": 8,
+      "player_id": 144,
+      "x": 0.13,
+      "y": 34.65,
+      "team": 2
+    },
+    {
+      "second": 8,
+      "player_id": 116,
+      "x": 0.13,
+      "y": 34.65,
+      "team": 2
+    },
+    {
+      "second": 8,
+      "player_id": 24,
+      "x": 40.91,
+      "y": 13.2,
+      "team": 1
+    },
+    {
+      "second": 9,
+      "player_id": 13,
+      "x": 10.36,
+      "y": 43.55,
+      "team": 2
+    },
+    {
+      "second": 9,
+      "player_id": 12,
+      "x": 17.9,
+      "y": 14.58,
+      "team": 1
+    },
+    {
+      "second": 9,
+      "player_id": 1,
+      "x": 13.54,
+      "y": 59.1,
+      "team": 1
+    },
+    {
+      "second": 9,
+      "player_id": 10,
+      "x": 18.48,
+      "y": 41.92,
+      "team": 1
+    },
+    {
+      "second": 9,
+      "player_id": 15,
+      "x": 6.7,
+      "y": 51.1,
+      "team": 1
+    },
+    {
+      "second": 9,
+      "player_id": 4,
+      "x": 22.92,
+      "y": 33.72,
+      "team": 2
+    },
+    {
+      "second": 9,
+      "player_id": 6,
+      "x": 10.8,
+      "y": 34.21,
+      "team": 1
+    },
+    {
+      "second": 9,
+      "player_id": 17,
+      "x": 30.11,
+      "y": 38.23,
+      "team": 1
+    },
+    {
+      "second": 9,
+      "player_id": 51,
+      "x": 23.55,
+      "y": 56.21,
+      "team": 2
+    },
+    {
+      "second": 9,
+      "player_id": 5,
+      "x": 28.36,
+      "y": 46.7,
+      "team": 2
+    },
+    {
+      "second": 9,
+      "player_id": 3,
+      "x": 21.53,
+      "y": 45.44,
+      "team": 2
+    },
+    {
+      "second": 9,
+      "player_id": 116,
+      "x": 0.61,
+      "y": 34.85,
+      "team": 2
+    },
+    {
+      "second": 9,
+      "player_id": 14,
+      "x": 32.94,
+      "y": 32.76,
+      "team": 2
+    },
+    {
+      "second": 9,
+      "player_id": 7,
+      "x": 33.08,
+      "y": 37.1,
+      "team": 1
+    },
+    {
+      "second": 9,
+      "player_id": 19,
+      "x": 21.25,
+      "y": 31.65,
+      "team": 1
+    },
+    {
+      "second": 9,
+      "player_id": 11,
+      "x": 14.19,
+      "y": 33.52,
+      "team": 2
+    },
+    {
+      "second": 9,
+      "player_id": 16,
+      "x": 29.9,
+      "y": 46.71,
+      "team": 1
+    },
+    {
+      "second": 9,
+      "player_id": 21,
+      "x": 35.01,
+      "y": 23.63,
+      "team": 2
+    },
+    {
+      "second": 9,
+      "player_id": 9,
+      "x": 24.43,
+      "y": 23.63,
+      "team": 2
+    },
+    {
+      "second": 9,
+      "player_id": 8,
+      "x": 30.97,
+      "y": 38.73,
+      "team": 2
+    },
+    {
+      "second": 9,
+      "player_id": 24,
+      "x": 39.49,
+      "y": 12.98,
+      "team": 1
+    },
+    {
+      "second": 10,
+      "player_id": 3,
+      "x": 21.05,
+      "y": 45.07,
+      "team": 2
+    },
+    {
+      "second": 10,
+      "player_id": 13,
+      "x": 10.35,
+      "y": 44.09,
+      "team": 2
+    },
+    {
+      "second": 10,
+      "player_id": 1,
+      "x": 13.12,
+      "y": 59.07,
+      "team": 1
+    },
+    {
+      "second": 10,
+      "player_id": 15,
+      "x": 6.69,
+      "y": 52.0,
+      "team": 1
+    },
+    {
+      "second": 10,
+      "player_id": 12,
+      "x": 16.62,
+      "y": 14.92,
+      "team": 1
+    },
+    {
+      "second": 10,
+      "player_id": 51,
+      "x": 22.79,
+      "y": 56.27,
+      "team": 2
+    },
+    {
+      "second": 10,
+      "player_id": 17,
+      "x": 28.43,
+      "y": 39.75,
+      "team": 1
+    },
+    {
+      "second": 10,
+      "player_id": 14,
+      "x": 32.47,
+      "y": 33.34,
+      "team": 2
+    },
+    {
+      "second": 10,
+      "player_id": 16,
+      "x": 29.2,
+      "y": 46.21,
+      "team": 1
+    },
+    {
+      "second": 10,
+      "player_id": 21,
+      "x": 34.62,
+      "y": 23.24,
+      "team": 2
+    },
+    {
+      "second": 10,
+      "player_id": 6,
+      "x": 10.68,
+      "y": 33.84,
+      "team": 1
+    },
+    {
+      "second": 10,
+      "player_id": 11,
+      "x": 13.15,
+      "y": 33.69,
+      "team": 2
+    },
+    {
+      "second": 10,
+      "player_id": 9,
+      "x": 23.24,
+      "y": 23.12,
+      "team": 2
+    },
+    {
+      "second": 10,
+      "player_id": 4,
+      "x": 22.4,
+      "y": 32.87,
+      "team": 2
+    },
+    {
+      "second": 10,
+      "player_id": 7,
+      "x": 32.22,
+      "y": 36.47,
+      "team": 1
+    },
+    {
+      "second": 10,
+      "player_id": 8,
+      "x": 30.67,
+      "y": 39.02,
+      "team": 2
+    },
+    {
+      "second": 10,
+      "player_id": 10,
+      "x": 17.44,
+      "y": 40.93,
+      "team": 1
+    },
+    {
+      "second": 10,
+      "player_id": 5,
+      "x": 28.23,
+      "y": 46.59,
+      "team": 2
+    },
+    {
+      "second": 10,
+      "player_id": 19,
+      "x": 20.63,
+      "y": 30.88,
+      "team": 1
+    },
+    {
+      "second": 10,
+      "player_id": 149,
+      "x": 1.2,
+      "y": 34.52,
+      "team": 2
+    },
+    {
+      "second": 10,
+      "player_id": 116,
+      "x": 1.17,
+      "y": 34.52,
+      "team": 2
+    },
+    {
+      "second": 11,
+      "player_id": 9,
+      "x": 22.27,
+      "y": 22.8,
+      "team": 2
+    },
+    {
+      "second": 11,
+      "player_id": 1,
+      "x": 12.65,
+      "y": 58.92,
+      "team": 1
+    },
+    {
+      "second": 11,
+      "player_id": 10,
+      "x": 16.76,
+      "y": 40.19,
+      "team": 1
+    },
+    {
+      "second": 11,
+      "player_id": 51,
+      "x": 22.32,
+      "y": 56.31,
+      "team": 2
+    },
+    {
+      "second": 11,
+      "player_id": 15,
+      "x": 6.65,
+      "y": 52.34,
+      "team": 1
+    },
+    {
+      "second": 11,
+      "player_id": 3,
+      "x": 20.78,
+      "y": 44.56,
+      "team": 2
+    },
+    {
+      "second": 11,
+      "player_id": 5,
+      "x": 28.12,
+      "y": 46.29,
+      "team": 2
+    },
+    {
+      "second": 11,
+      "player_id": 13,
+      "x": 10.5,
+      "y": 44.38,
+      "team": 2
+    },
+    {
+      "second": 11,
+      "player_id": 6,
+      "x": 10.63,
+      "y": 34.41,
+      "team": 1
+    },
+    {
+      "second": 11,
+      "player_id": 17,
+      "x": 26.89,
+      "y": 41.09,
+      "team": 1
+    },
+    {
+      "second": 11,
+      "player_id": 11,
+      "x": 11.4,
+      "y": 34.32,
+      "team": 2
+    },
+    {
+      "second": 11,
+      "player_id": 19,
+      "x": 20.02,
+      "y": 29.44,
+      "team": 1
+    },
+    {
+      "second": 11,
+      "player_id": 16,
+      "x": 29.1,
+      "y": 45.62,
+      "team": 1
+    },
+    {
+      "second": 11,
+      "player_id": 4,
+      "x": 21.87,
+      "y": 32.14,
+      "team": 2
+    },
+    {
+      "second": 11,
+      "player_id": 14,
+      "x": 32.27,
+      "y": 34.22,
+      "team": 2
+    },
+    {
+      "second": 11,
+      "player_id": 153,
+      "x": 31.71,
+      "y": 36.01,
+      "team": 2
+    },
+    {
+      "second": 11,
+      "player_id": 116,
+      "x": 1.56,
+      "y": 34.7,
+      "team": 2
+    },
+    {
+      "second": 11,
+      "player_id": 8,
+      "x": 30.94,
+      "y": 39.19,
+      "team": 2
+    },
+    {
+      "second": 11,
+      "player_id": 12,
+      "x": 16.09,
+      "y": 15.56,
+      "team": 1
+    },
+    {
+      "second": 11,
+      "player_id": 21,
+      "x": 34.56,
+      "y": 22.56,
+      "team": 2
+    },
+    {
+      "second": 12,
+      "player_id": 1,
+      "x": 11.74,
+      "y": 59.08,
+      "team": 1
+    },
+    {
+      "second": 12,
+      "player_id": 51,
+      "x": 22.55,
+      "y": 56.49,
+      "team": 2
+    },
+    {
+      "second": 12,
+      "player_id": 13,
+      "x": 10.41,
+      "y": 44.89,
+      "team": 2
+    },
+    {
+      "second": 12,
+      "player_id": 15,
+      "x": 5.83,
+      "y": 52.31,
+      "team": 1
+    },
+    {
+      "second": 12,
+      "player_id": 17,
+      "x": 25.51,
+      "y": 42.3,
+      "team": 1
+    },
+    {
+      "second": 12,
+      "player_id": 10,
+      "x": 16.13,
+      "y": 40.28,
+      "team": 1
+    },
+    {
+      "second": 12,
+      "player_id": 3,
+      "x": 20.37,
+      "y": 44.58,
+      "team": 2
+    },
+    {
+      "second": 12,
+      "player_id": 116,
+      "x": 2.43,
+      "y": 36.77,
+      "team": 2
+    },
+    {
+      "second": 12,
+      "player_id": 11,
+      "x": 8.97,
+      "y": 36.46,
+      "team": 2
+    },
+    {
+      "second": 12,
+      "player_id": 6,
+      "x": 10.37,
+      "y": 35.05,
+      "team": 1
+    },
+    {
+      "second": 12,
+      "player_id": 12,
+      "x": 16.23,
+      "y": 16.47,
+      "team": 1
+    },
+    {
+      "second": 12,
+      "player_id": 153,
+      "x": 31.69,
+      "y": 36.13,
+      "team": 2
+    },
+    {
+      "second": 12,
+      "player_id": 9,
+      "x": 21.4,
+      "y": 23.75,
+      "team": 2
+    },
+    {
+      "second": 12,
+      "player_id": 21,
+      "x": 34.41,
+      "y": 22.71,
+      "team": 2
+    },
+    {
+      "second": 12,
+      "player_id": 19,
+      "x": 19.0,
+      "y": 28.99,
+      "team": 1
+    },
+    {
+      "second": 12,
+      "player_id": 8,
+      "x": 30.81,
+      "y": 39.84,
+      "team": 2
+    },
+    {
+      "second": 12,
+      "player_id": 5,
+      "x": 29.19,
+      "y": 45.73,
+      "team": 2
+    },
+    {
+      "second": 12,
+      "player_id": 14,
+      "x": 32.39,
+      "y": 35.38,
+      "team": 2
+    },
+    {
+      "second": 12,
+      "player_id": 4,
+      "x": 21.6,
+      "y": 32.6,
+      "team": 2
+    },
+    {
+      "second": 12,
+      "player_id": 24,
+      "x": 36.01,
+      "y": 13.65,
+      "team": 1
+    },
+    {
+      "second": 13,
+      "player_id": 1,
+      "x": 11.67,
+      "y": 58.84,
+      "team": 1
+    },
+    {
+      "second": 13,
+      "player_id": 160,
+      "x": 29.79,
+      "y": 47.06,
+      "team": 2
+    },
+    {
+      "second": 13,
+      "player_id": 51,
+      "x": 22.49,
+      "y": 56.48,
+      "team": 2
+    },
+    {
+      "second": 13,
+      "player_id": 3,
+      "x": 20.09,
+      "y": 44.34,
+      "team": 2
+    },
+    {
+      "second": 13,
+      "player_id": 10,
+      "x": 15.62,
+      "y": 40.9,
+      "team": 1
+    },
+    {
+      "second": 13,
+      "player_id": 13,
+      "x": 9.9,
+      "y": 45.14,
+      "team": 2
+    },
+    {
+      "second": 13,
+      "player_id": 4,
+      "x": 20.89,
+      "y": 33.85,
+      "team": 2
+    },
+    {
+      "second": 13,
+      "player_id": 153,
+      "x": 30.68,
+      "y": 36.68,
+      "team": 2
+    },
+    {
+      "second": 13,
+      "player_id": 5,
+      "x": 28.95,
+      "y": 44.82,
+      "team": 2
+    },
+    {
+      "second": 13,
+      "player_id": 19,
+      "x": 17.62,
+      "y": 29.96,
+      "team": 1
+    },
+    {
+      "second": 13,
+      "player_id": 15,
+      "x": 5.85,
+      "y": 52.66,
+      "team": 1
+    },
+    {
+      "second": 13,
+      "player_id": 11,
+      "x": 8.31,
+      "y": 38.04,
+      "team": 2
+    },
+    {
+      "second": 13,
+      "player_id": 6,
+      "x": 9.85,
+      "y": 35.96,
+      "team": 1
+    },
+    {
+      "second": 13,
+      "player_id": 21,
+      "x": 33.05,
+      "y": 22.98,
+      "team": 2
+    },
+    {
+      "second": 13,
+      "player_id": 9,
+      "x": 20.24,
+      "y": 24.77,
+      "team": 2
+    },
+    {
+      "second": 13,
+      "player_id": 17,
+      "x": 23.47,
+      "y": 42.93,
+      "team": 1
+    },
+    {
+      "second": 13,
+      "player_id": 12,
+      "x": 15.46,
+      "y": 17.55,
+      "team": 1
+    },
+    {
+      "second": 13,
+      "player_id": 166,
+      "x": 34.18,
+      "y": 14.15,
+      "team": 1
+    },
+    {
+      "second": 13,
+      "player_id": 8,
+      "x": 30.12,
+      "y": 40.93,
+      "team": 2
+    },
+    {
+      "second": 13,
+      "player_id": 14,
+      "x": 32.01,
+      "y": 36.18,
+      "team": 2
+    },
+    {
+      "second": 13,
+      "player_id": 116,
+      "x": 1.8,
+      "y": 35.81,
+      "team": 2
+    },
+    {
+      "second": 14,
+      "player_id": 13,
+      "x": 7.96,
+      "y": 44.82,
+      "team": 2
+    },
+    {
+      "second": 14,
+      "player_id": 4,
+      "x": 19.48,
+      "y": 33.29,
+      "team": 2
+    },
+    {
+      "second": 14,
+      "player_id": 17,
+      "x": 21.33,
+      "y": 42.39,
+      "team": 1
+    },
+    {
+      "second": 14,
+      "player_id": 15,
+      "x": 5.28,
+      "y": 50.5,
+      "team": 1
+    },
+    {
+      "second": 14,
+      "player_id": 11,
+      "x": 7.27,
+      "y": 37.59,
+      "team": 2
+    },
+    {
+      "second": 14,
+      "player_id": 51,
+      "x": 21.84,
+      "y": 55.78,
+      "team": 2
+    },
+    {
+      "second": 14,
+      "player_id": 12,
+      "x": 12.18,
+      "y": 17.26,
+      "team": 1
+    },
+    {
+      "second": 14,
+      "player_id": 10,
+      "x": 14.45,
+      "y": 39.92,
+      "team": 1
+    },
+    {
+      "second": 14,
+      "player_id": 1,
+      "x": 12.68,
+      "y": 56.58,
+      "team": 1
+    },
+    {
+      "second": 14,
+      "player_id": 14,
+      "x": 30.51,
+      "y": 36.58,
+      "team": 2
+    },
+    {
+      "second": 14,
+      "player_id": 19,
+      "x": 15.11,
+      "y": 28.79,
+      "team": 1
+    },
+    {
+      "second": 14,
+      "player_id": 160,
+      "x": 27.95,
+      "y": 43.2,
+      "team": 2
+    },
+    {
+      "second": 14,
+      "player_id": 3,
+      "x": 19.4,
+      "y": 42.72,
+      "team": 2
+    },
+    {
+      "second": 14,
+      "player_id": 21,
+      "x": 30.31,
+      "y": 20.41,
+      "team": 2
+    },
+    {
+      "second": 14,
+      "player_id": 6,
+      "x": 7.95,
+      "y": 35.34,
+      "team": 1
+    },
+    {
+      "second": 14,
+      "player_id": 153,
+      "x": 29.38,
+      "y": 36.74,
+      "team": 2
+    },
+    {
+      "second": 14,
+      "player_id": 9,
+      "x": 17.69,
+      "y": 24.55,
+      "team": 2
+    },
+    {
+      "second": 14,
+      "player_id": 166,
+      "x": 30.48,
+      "y": 11.45,
+      "team": 1
+    },
+    {
+      "second": 14,
+      "player_id": 5,
+      "x": 26.76,
+      "y": 41.64,
+      "team": 2
+    },
+    {
+      "second": 14,
+      "player_id": 8,
+      "x": 26.71,
+      "y": 42.26,
+      "team": 2
+    },
+    {
+      "second": 14,
+      "player_id": 116,
+      "x": -3.62,
+      "y": 33.05,
+      "team": 2
+    },
+    {
+      "second": 15,
+      "player_id": 4,
+      "x": 18.5,
+      "y": 33.76,
+      "team": 2
+    },
+    {
+      "second": 15,
+      "player_id": 15,
+      "x": 3.92,
+      "y": 49.32,
+      "team": 1
+    },
+    {
+      "second": 15,
+      "player_id": 1,
+      "x": 13.31,
+      "y": 54.87,
+      "team": 1
+    },
+    {
+      "second": 15,
+      "player_id": 12,
+      "x": 7.95,
+      "y": 17.61,
+      "team": 1
+    },
+    {
+      "second": 15,
+      "player_id": 10,
+      "x": 12.93,
+      "y": 39.97,
+      "team": 1
+    },
+    {
+      "second": 15,
+      "player_id": 51,
+      "x": 21.24,
+      "y": 56.21,
+      "team": 2
+    },
+    {
+      "second": 15,
+      "player_id": 13,
+      "x": 6.04,
+      "y": 45.41,
+      "team": 2
+    },
+    {
+      "second": 15,
+      "player_id": 160,
+      "x": 27.76,
+      "y": 41.74,
+      "team": 2
+    },
+    {
+      "second": 15,
+      "player_id": 3,
+      "x": 19.95,
+      "y": 42.55,
+      "team": 2
+    },
+    {
+      "second": 15,
+      "player_id": 19,
+      "x": 12.39,
+      "y": 29.28,
+      "team": 1
+    },
+    {
+      "second": 15,
+      "player_id": 21,
+      "x": 27.66,
+      "y": 17.91,
+      "team": 2
+    },
+    {
+      "second": 15,
+      "player_id": 11,
+      "x": 5.24,
+      "y": 38.47,
+      "team": 2
+    },
+    {
+      "second": 15,
+      "player_id": 5,
+      "x": 24.85,
+      "y": 40.58,
+      "team": 2
+    },
+    {
+      "second": 15,
+      "player_id": 14,
+      "x": 30.83,
+      "y": 38.9,
+      "team": 2
+    },
+    {
+      "second": 15,
+      "player_id": 9,
+      "x": 14.74,
+      "y": 25.41,
+      "team": 2
+    },
+    {
+      "second": 15,
+      "player_id": 166,
+      "x": 26.49,
+      "y": 8.8,
+      "team": 1
+    },
+    {
+      "second": 15,
+      "player_id": 6,
+      "x": 5.66,
+      "y": 36.69,
+      "team": 1
+    },
+    {
+      "second": 15,
+      "player_id": 8,
+      "x": 24.68,
+      "y": 42.72,
+      "team": 2
+    },
+    {
+      "second": 15,
+      "player_id": 153,
+      "x": 29.91,
+      "y": 38.96,
+      "team": 2
+    },
+    {
+      "second": 16,
+      "player_id": 51,
+      "x": 20.41,
+      "y": 56.59,
+      "team": 2
+    },
+    {
+      "second": 16,
+      "player_id": 160,
+      "x": 26.78,
+      "y": 42.71,
+      "team": 2
+    },
+    {
+      "second": 16,
+      "player_id": 13,
+      "x": 4.87,
+      "y": 46.67,
+      "team": 2
+    },
+    {
+      "second": 16,
+      "player_id": 12,
+      "x": 3.6,
+      "y": 18.05,
+      "team": 1
+    },
+    {
+      "second": 16,
+      "player_id": 21,
+      "x": 25.02,
+      "y": 16.06,
+      "team": 2
+    },
+    {
+      "second": 16,
+      "player_id": 8,
+      "x": 22.64,
+      "y": 44.79,
+      "team": 2
+    },
+    {
+      "second": 16,
+      "player_id": 1,
+      "x": 13.24,
+      "y": 53.73,
+      "team": 1
+    },
+    {
+      "second": 16,
+      "player_id": 10,
+      "x": 11.39,
+      "y": 41.86,
+      "team": 1
+    },
+    {
+      "second": 16,
+      "player_id": 153,
+      "x": 29.99,
+      "y": 42.16,
+      "team": 2
+    },
+    {
+      "second": 16,
+      "player_id": 15,
+      "x": 2.63,
+      "y": 48.49,
+      "team": 1
+    },
+    {
+      "second": 16,
+      "player_id": 19,
+      "x": 10.09,
+      "y": 29.41,
+      "team": 1
+    },
+    {
+      "second": 16,
+      "player_id": 17,
+      "x": 17.6,
+      "y": 44.04,
+      "team": 1
+    },
+    {
+      "second": 16,
+      "player_id": 4,
+      "x": 17.76,
+      "y": 34.36,
+      "team": 2
+    },
+    {
+      "second": 16,
+      "player_id": 5,
+      "x": 24.14,
+      "y": 40.04,
+      "team": 2
+    },
+    {
+      "second": 16,
+      "player_id": 11,
+      "x": 2.98,
+      "y": 39.84,
+      "team": 2
+    },
+    {
+      "second": 16,
+      "player_id": 9,
+      "x": 11.81,
+      "y": 26.62,
+      "team": 2
+    },
+    {
+      "second": 16,
+      "player_id": 166,
+      "x": 22.33,
+      "y": 5.37,
+      "team": 1
+    },
+    {
+      "second": 16,
+      "player_id": 3,
+      "x": 18.38,
+      "y": 42.47,
+      "team": 2
+    },
+    {
+      "second": 16,
+      "player_id": 14,
+      "x": 30.78,
+      "y": 40.36,
+      "team": 2
+    },
+    {
+      "second": 16,
+      "player_id": 6,
+      "x": 3.15,
+      "y": 37.59,
+      "team": 1
+    },
+    {
+      "second": 17,
+      "player_id": 3,
+      "x": 18.44,
+      "y": 42.11,
+      "team": 2
+    },
+    {
+      "second": 17,
+      "player_id": 17,
+      "x": 15.29,
+      "y": 44.28,
+      "team": 1
+    },
+    {
+      "second": 17,
+      "player_id": 5,
+      "x": 25.1,
+      "y": 39.91,
+      "team": 2
+    },
+    {
+      "second": 17,
+      "player_id": 9,
+      "x": 12.58,
+      "y": 28.02,
+      "team": 2
+    },
+    {
+      "second": 17,
+      "player_id": 1,
+      "x": 12.87,
+      "y": 53.67,
+      "team": 1
+    },
+    {
+      "second": 17,
+      "player_id": 160,
+      "x": 26.7,
+      "y": 46.21,
+      "team": 2
+    },
+    {
+      "second": 17,
+      "player_id": 8,
+      "x": 22.13,
+      "y": 47.95,
+      "team": 2
+    },
+    {
+      "second": 17,
+      "player_id": 19,
+      "x": 10.29,
+      "y": 30.5,
+      "team": 1
+    },
+    {
+      "second": 17,
+      "player_id": 10,
+      "x": 12.84,
+      "y": 43.55,
+      "team": 1
+    },
+    {
+      "second": 17,
+      "player_id": 51,
+      "x": 20.45,
+      "y": 56.02,
+      "team": 2
+    },
+    {
+      "second": 17,
+      "player_id": 12,
+      "x": 3.83,
+      "y": 18.13,
+      "team": 1
+    },
+    {
+      "second": 17,
+      "player_id": 21,
+      "x": 26.54,
+      "y": 15.79,
+      "team": 2
+    },
+    {
+      "second": 17,
+      "player_id": 166,
+      "x": 21.11,
+      "y": 4.34,
+      "team": 1
+    },
+    {
+      "second": 17,
+      "player_id": 4,
+      "x": 19.45,
+      "y": 35.75,
+      "team": 2
+    },
+    {
+      "second": 17,
+      "player_id": 15,
+      "x": 3.44,
+      "y": 48.36,
+      "team": 1
+    },
+    {
+      "second": 17,
+      "player_id": 14,
+      "x": 31.15,
+      "y": 41.0,
+      "team": 2
+    },
+    {
+      "second": 17,
+      "player_id": 13,
+      "x": 7.41,
+      "y": 47.96,
+      "team": 2
+    },
+    {
+      "second": 17,
+      "player_id": 6,
+      "x": 2.88,
+      "y": 39.06,
+      "team": 1
+    },
+    {
+      "second": 17,
+      "player_id": 153,
+      "x": 28.39,
+      "y": 43.13,
+      "team": 2
+    },
+    {
+      "second": 17,
+      "player_id": 11,
+      "x": 3.81,
+      "y": 40.68,
+      "team": 2
+    },
+    {
+      "second": 18,
+      "player_id": 11,
+      "x": 3.29,
+      "y": 41.48,
+      "team": 2
+    },
+    {
+      "second": 18,
+      "player_id": 51,
+      "x": 22.19,
+      "y": 55.52,
+      "team": 2
+    },
+    {
+      "second": 18,
+      "player_id": 153,
+      "x": 26.21,
+      "y": 43.4,
+      "team": 2
+    },
+    {
+      "second": 18,
+      "player_id": 15,
+      "x": 3.57,
+      "y": 49.4,
+      "team": 1
+    },
+    {
+      "second": 18,
+      "player_id": 1,
+      "x": 13.43,
+      "y": 54.3,
+      "team": 1
+    },
+    {
+      "second": 18,
+      "player_id": 5,
+      "x": 24.74,
+      "y": 40.03,
+      "team": 2
+    },
+    {
+      "second": 18,
+      "player_id": 166,
+      "x": 19.06,
+      "y": 5.72,
+      "team": 1
+    },
+    {
+      "second": 18,
+      "player_id": 14,
+      "x": 30.6,
+      "y": 42.15,
+      "team": 2
+    },
+    {
+      "second": 18,
+      "player_id": 12,
+      "x": 2.8,
+      "y": 19.8,
+      "team": 1
+    },
+    {
+      "second": 18,
+      "player_id": 8,
+      "x": 23.23,
+      "y": 49.64,
+      "team": 2
+    },
+    {
+      "second": 18,
+      "player_id": 13,
+      "x": 8.19,
+      "y": 48.7,
+      "team": 2
+    },
+    {
+      "second": 18,
+      "player_id": 17,
+      "x": 13.83,
+      "y": 45.76,
+      "team": 1
+    },
+    {
+      "second": 18,
+      "player_id": 9,
+      "x": 12.33,
+      "y": 29.0,
+      "team": 2
+    },
+    {
+      "second": 18,
+      "player_id": 3,
+      "x": 17.21,
+      "y": 42.83,
+      "team": 2
+    },
+    {
+      "second": 18,
+      "player_id": 19,
+      "x": 9.3,
+      "y": 31.53,
+      "team": 1
+    },
+    {
+      "second": 18,
+      "player_id": 21,
+      "x": 25.39,
+      "y": 16.83,
+      "team": 2
+    },
+    {
+      "second": 18,
+      "player_id": 10,
+      "x": 13.35,
+      "y": 44.26,
+      "team": 1
+    },
+    {
+      "second": 18,
+      "player_id": 160,
+      "x": 27.74,
+      "y": 49.91,
+      "team": 2
+    },
+    {
+      "second": 18,
+      "player_id": 6,
+      "x": 1.66,
+      "y": 39.87,
+      "team": 1
+    },
+    {
+      "second": 18,
+      "player_id": 4,
+      "x": 19.9,
+      "y": 37.06,
+      "team": 2
+    },
+    {
+      "second": 19,
+      "player_id": 19,
+      "x": 8.65,
+      "y": 31.94,
+      "team": 1
+    },
+    {
+      "second": 19,
+      "player_id": 4,
+      "x": 20.18,
+      "y": 36.46,
+      "team": 2
+    },
+    {
+      "second": 19,
+      "player_id": 6,
+      "x": 0.56,
+      "y": 40.91,
+      "team": 1
+    },
+    {
+      "second": 19,
+      "player_id": 11,
+      "x": 1.91,
+      "y": 42.95,
+      "team": 2
+    },
+    {
+      "second": 19,
+      "player_id": 14,
+      "x": 31.21,
+      "y": 41.66,
+      "team": 2
+    },
+    {
+      "second": 19,
+      "player_id": 160,
+      "x": 31.14,
+      "y": 52.69,
+      "team": 2
+    },
+    {
+      "second": 19,
+      "player_id": 17,
+      "x": 13.96,
+      "y": 46.41,
+      "team": 1
+    },
+    {
+      "second": 19,
+      "player_id": 51,
+      "x": 23.2,
+      "y": 56.35,
+      "team": 2
+    },
+    {
+      "second": 19,
+      "player_id": 8,
+      "x": 26.2,
+      "y": 51.6,
+      "team": 2
+    },
+    {
+      "second": 19,
+      "player_id": 13,
+      "x": 7.4,
+      "y": 50.73,
+      "team": 2
+    },
+    {
+      "second": 19,
+      "player_id": 1,
+      "x": 15.55,
+      "y": 55.65,
+      "team": 1
+    },
+    {
+      "second": 19,
+      "player_id": 153,
+      "x": 26.21,
+      "y": 42.53,
+      "team": 2
+    },
+    {
+      "second": 19,
+      "player_id": 3,
+      "x": 17.6,
+      "y": 43.5,
+      "team": 2
+    },
+    {
+      "second": 19,
+      "player_id": 10,
+      "x": 13.17,
+      "y": 45.23,
+      "team": 1
+    },
+    {
+      "second": 19,
+      "player_id": 12,
+      "x": 1.37,
+      "y": 22.16,
+      "team": 1
+    },
+    {
+      "second": 19,
+      "player_id": 166,
+      "x": 16.25,
+      "y": 7.06,
+      "team": 1
+    },
+    {
+      "second": 19,
+      "player_id": 15,
+      "x": 3.76,
+      "y": 51.09,
+      "team": 1
+    },
+    {
+      "second": 19,
+      "player_id": 21,
+      "x": 23.69,
+      "y": 16.24,
+      "team": 2
+    },
+    {
+      "second": 19,
+      "player_id": 5,
+      "x": 25.02,
+      "y": 39.24,
+      "team": 2
+    },
+    {
+      "second": 19,
+      "player_id": 9,
+      "x": 11.79,
+      "y": 29.21,
+      "team": 2
+    },
+    {
+      "second": 20,
+      "player_id": 1,
+      "x": 16.55,
+      "y": 55.13,
+      "team": 1
+    },
+    {
+      "second": 20,
+      "player_id": 5,
+      "x": 22.42,
+      "y": 38.0,
+      "team": 2
+    },
+    {
+      "second": 20,
+      "player_id": 8,
+      "x": 27.19,
+      "y": 52.03,
+      "team": 2
+    },
+    {
+      "second": 20,
+      "player_id": 14,
+      "x": 28.18,
+      "y": 38.46,
+      "team": 2
+    },
+    {
+      "second": 20,
+      "player_id": 3,
+      "x": 16.6,
+      "y": 43.88,
+      "team": 2
+    },
+    {
+      "second": 20,
+      "player_id": 13,
+      "x": 5.52,
+      "y": 51.29,
+      "team": 2
+    },
+    {
+      "second": 20,
+      "player_id": 15,
+      "x": 3.06,
+      "y": 52.38,
+      "team": 1
+    },
+    {
+      "second": 20,
+      "player_id": 9,
+      "x": 9.42,
+      "y": 30.97,
+      "team": 2
+    },
+    {
+      "second": 20,
+      "player_id": 166,
+      "x": 11.45,
+      "y": 13.91,
+      "team": 1
+    },
+    {
+      "second": 20,
+      "player_id": 153,
+      "x": 24.45,
+      "y": 40.22,
+      "team": 2
+    },
+    {
+      "second": 20,
+      "player_id": 322,
+      "x": 31.17,
+      "y": 53.64,
+      "team": 2
+    },
+    {
+      "second": 20,
+      "player_id": 6,
+      "x": -0.38,
+      "y": 42.88,
+      "team": 1
+    },
+    {
+      "second": 20,
+      "player_id": 11,
+      "x": 0.34,
+      "y": 44.53,
+      "team": 2
+    },
+    {
+      "second": 20,
+      "player_id": 10,
+      "x": 11.75,
+      "y": 45.83,
+      "team": 1
+    },
+    {
+      "second": 20,
+      "player_id": 4,
+      "x": 17.76,
+      "y": 36.71,
+      "team": 2
+    },
+    {
+      "second": 20,
+      "player_id": 21,
+      "x": 17.75,
+      "y": 19.62,
+      "team": 2
+    },
+    {
+      "second": 20,
+      "player_id": 17,
+      "x": 13.36,
+      "y": 46.81,
+      "team": 1
+    },
+    {
+      "second": 20,
+      "player_id": 19,
+      "x": 7.16,
+      "y": 33.45,
+      "team": 1
+    },
+    {
+      "second": 20,
+      "player_id": 51,
+      "x": 21.55,
+      "y": 56.82,
+      "team": 2
+    },
+    {
+      "second": 20,
+      "player_id": 12,
+      "x": -0.24,
+      "y": 26.99,
+      "team": 1
+    },
+    {
+      "second": 20,
+      "player_id": 329,
+      "x": 44.13,
+      "y": 32.49,
+      "team": 2
+    },
+    {
+      "second": 21,
+      "player_id": 1,
+      "x": 18.65,
+      "y": 53.31,
+      "team": 1
+    },
+    {
+      "second": 21,
+      "player_id": 8,
+      "x": 28.48,
+      "y": 50.65,
+      "team": 2
+    },
+    {
+      "second": 21,
+      "player_id": 17,
+      "x": 14.46,
+      "y": 46.07,
+      "team": 1
+    },
+    {
+      "second": 21,
+      "player_id": 10,
+      "x": 12.46,
+      "y": 45.17,
+      "team": 1
+    },
+    {
+      "second": 21,
+      "player_id": 9,
+      "x": 9.43,
+      "y": 32.3,
+      "team": 2
+    },
+    {
+      "second": 21,
+      "player_id": 3,
+      "x": 17.15,
+      "y": 43.12,
+      "team": 2
+    },
+    {
+      "second": 21,
+      "player_id": 5,
+      "x": 21.17,
+      "y": 37.08,
+      "team": 2
+    },
+    {
+      "second": 21,
+      "player_id": 13,
+      "x": 5.6,
+      "y": 50.6,
+      "team": 2
+    },
+    {
+      "second": 21,
+      "player_id": 15,
+      "x": 4.39,
+      "y": 51.62,
+      "team": 1
+    },
+    {
+      "second": 21,
+      "player_id": 11,
+      "x": 1.42,
+      "y": 44.65,
+      "team": 2
+    },
+    {
+      "second": 21,
+      "player_id": 344,
+      "x": 31.39,
+      "y": 51.77,
+      "team": 2
+    },
+    {
+      "second": 21,
+      "player_id": 6,
+      "x": 0.93,
+      "y": 43.2,
+      "team": 1
+    },
+    {
+      "second": 21,
+      "player_id": 51,
+      "x": 21.64,
+      "y": 55.43,
+      "team": 2
+    },
+    {
+      "second": 21,
+      "player_id": 19,
+      "x": 7.85,
+      "y": 34.36,
+      "team": 1
+    },
+    {
+      "second": 21,
+      "player_id": 12,
+      "x": 0.92,
+      "y": 30.68,
+      "team": 1
+    },
+    {
+      "second": 21,
+      "player_id": 4,
+      "x": 16.97,
+      "y": 37.12,
+      "team": 2
+    },
+    {
+      "second": 21,
+      "player_id": 21,
+      "x": 14.45,
+      "y": 22.4,
+      "team": 2
+    },
+    {
+      "second": 21,
+      "player_id": 166,
+      "x": 10.73,
+      "y": 20.37,
+      "team": 1
+    },
+    {
+      "second": 21,
+      "player_id": 153,
+      "x": 25.0,
+      "y": 38.45,
+      "team": 2
+    },
+    {
+      "second": 21,
+      "player_id": 14,
+      "x": 26.13,
+      "y": 36.69,
+      "team": 2
+    },
+    {
+      "second": 21,
+      "player_id": 329,
+      "x": 37.96,
+      "y": 34.67,
+      "team": 2
+    },
+    {
+      "second": 22,
+      "player_id": 17,
+      "x": 16.16,
+      "y": 46.1,
+      "team": 1
+    },
+    {
+      "second": 22,
+      "player_id": 9,
+      "x": 8.93,
+      "y": 31.94,
+      "team": 2
+    },
+    {
+      "second": 22,
+      "player_id": 8,
+      "x": 30.65,
+      "y": 49.16,
+      "team": 2
+    },
+    {
+      "second": 22,
+      "player_id": 153,
+      "x": 28.48,
+      "y": 36.6,
+      "team": 2
+    },
+    {
+      "second": 22,
+      "player_id": 19,
+      "x": 7.82,
+      "y": 34.44,
+      "team": 1
+    },
+    {
+      "second": 22,
+      "player_id": 1,
+      "x": 19.8,
+      "y": 52.86,
+      "team": 1
+    },
+    {
+      "second": 22,
+      "player_id": 51,
+      "x": 21.86,
+      "y": 54.97,
+      "team": 2
+    },
+    {
+      "second": 22,
+      "player_id": 3,
+      "x": 18.2,
+      "y": 41.93,
+      "team": 2
+    },
+    {
+      "second": 22,
+      "player_id": 21,
+      "x": 12.35,
+      "y": 21.85,
+      "team": 2
+    },
+    {
+      "second": 22,
+      "player_id": 344,
+      "x": 32.93,
+      "y": 51.96,
+      "team": 2
+    },
+    {
+      "second": 22,
+      "player_id": 166,
+      "x": 9.69,
+      "y": 20.47,
+      "team": 1
+    },
+    {
+      "second": 22,
+      "player_id": 10,
+      "x": 13.16,
+      "y": 44.66,
+      "team": 1
+    },
+    {
+      "second": 22,
+      "player_id": 15,
+      "x": 3.72,
+      "y": 51.33,
+      "team": 1
+    },
+    {
+      "second": 22,
+      "player_id": 13,
+      "x": 4.48,
+      "y": 50.85,
+      "team": 2
+    },
+    {
+      "second": 22,
+      "player_id": 4,
+      "x": 16.59,
+      "y": 36.79,
+      "team": 2
+    },
+    {
+      "second": 22,
+      "player_id": 11,
+      "x": 1.13,
+      "y": 45.14,
+      "team": 2
+    },
+    {
+      "second": 22,
+      "player_id": 5,
+      "x": 21.9,
+      "y": 38.3,
+      "team": 2
+    },
+    {
+      "second": 22,
+      "player_id": 6,
+      "x": 0.63,
+      "y": 43.72,
+      "team": 1
+    },
+    {
+      "second": 22,
+      "player_id": 329,
+      "x": 37.2,
+      "y": 35.41,
+      "team": 2
+    },
+    {
+      "second": 22,
+      "player_id": 12,
+      "x": 0.11,
+      "y": 31.69,
+      "team": 1
+    },
+    {
+      "second": 22,
+      "player_id": 14,
+      "x": 26.3,
+      "y": 33.88,
+      "team": 2
+    },
+    {
+      "second": 23,
+      "player_id": 51,
+      "x": 20.69,
+      "y": 53.21,
+      "team": 2
+    },
+    {
+      "second": 23,
+      "player_id": 17,
+      "x": 17.3,
+      "y": 45.65,
+      "team": 1
+    },
+    {
+      "second": 23,
+      "player_id": 8,
+      "x": 29.65,
+      "y": 47.85,
+      "team": 2
+    },
+    {
+      "second": 23,
+      "player_id": 344,
+      "x": 31.15,
+      "y": 50.91,
+      "team": 2
+    },
+    {
+      "second": 23,
+      "player_id": 6,
+      "x": -0.17,
+      "y": 44.93,
+      "team": 1
+    },
+    {
+      "second": 23,
+      "player_id": 166,
+      "x": 7.05,
+      "y": 20.87,
+      "team": 1
+    },
+    {
+      "second": 23,
+      "player_id": 1,
+      "x": 18.06,
+      "y": 51.97,
+      "team": 1
+    },
+    {
+      "second": 23,
+      "player_id": 11,
+      "x": 0.65,
+      "y": 45.33,
+      "team": 2
+    },
+    {
+      "second": 23,
+      "player_id": 19,
+      "x": 6.82,
+      "y": 36.07,
+      "team": 1
+    },
+    {
+      "second": 23,
+      "player_id": 4,
+      "x": 15.49,
+      "y": 36.87,
+      "team": 2
+    },
+    {
+      "second": 23,
+      "player_id": 10,
+      "x": 12.09,
+      "y": 44.94,
+      "team": 1
+    },
+    {
+      "second": 23,
+      "player_id": 3,
+      "x": 18.71,
+      "y": 41.86,
+      "team": 2
+    },
+    {
+      "second": 23,
+      "player_id": 12,
+      "x": -0.92,
+      "y": 31.9,
+      "team": 1
+    },
+    {
+      "second": 23,
+      "player_id": 21,
+      "x": 10.05,
+      "y": 21.06,
+      "team": 2
+    },
+    {
+      "second": 23,
+      "player_id": 13,
+      "x": 3.2,
+      "y": 50.85,
+      "team": 2
+    },
+    {
+      "second": 23,
+      "player_id": 329,
+      "x": 35.46,
+      "y": 35.42,
+      "team": 2
+    },
+    {
+      "second": 23,
+      "player_id": 5,
+      "x": 22.76,
+      "y": 40.24,
+      "team": 2
+    },
+    {
+      "second": 23,
+      "player_id": 9,
+      "x": 8.29,
+      "y": 31.63,
+      "team": 2
+    },
+    {
+      "second": 23,
+      "player_id": 15,
+      "x": 2.51,
+      "y": 51.47,
+      "team": 1
+    },
+    {
+      "second": 23,
+      "player_id": 14,
+      "x": 25.6,
+      "y": 30.27,
+      "team": 2
+    },
+    {
+      "second": 23,
+      "player_id": 153,
+      "x": 31.17,
+      "y": 35.54,
+      "team": 2
+    },
+    {
+      "second": 24,
+      "player_id": 15,
+      "x": 2.63,
+      "y": 50.46,
+      "team": 1
+    },
+    {
+      "second": 24,
+      "player_id": 17,
+      "x": 18.07,
+      "y": 45.16,
+      "team": 1
+    },
+    {
+      "second": 24,
+      "player_id": 13,
+      "x": 3.81,
+      "y": 50.69,
+      "team": 2
+    },
+    {
+      "second": 24,
+      "player_id": 166,
+      "x": 6.63,
+      "y": 21.26,
+      "team": 1
+    },
+    {
+      "second": 24,
+      "player_id": 19,
+      "x": 8.23,
+      "y": 36.87,
+      "team": 1
+    },
+    {
+      "second": 24,
+      "player_id": 344,
+      "x": 29.57,
+      "y": 49.25,
+      "team": 2
+    },
+    {
+      "second": 24,
+      "player_id": 51,
+      "x": 20.02,
+      "y": 52.49,
+      "team": 2
+    },
+    {
+      "second": 24,
+      "player_id": 1,
+      "x": 17.49,
+      "y": 51.49,
+      "team": 1
+    },
+    {
+      "second": 24,
+      "player_id": 10,
+      "x": 11.69,
+      "y": 44.16,
+      "team": 1
+    },
+    {
+      "second": 24,
+      "player_id": 11,
+      "x": 2.17,
+      "y": 43.53,
+      "team": 2
+    },
+    {
+      "second": 24,
+      "player_id": 4,
+      "x": 15.38,
+      "y": 37.62,
+      "team": 2
+    },
+    {
+      "second": 24,
+      "player_id": 6,
+      "x": 0.61,
+      "y": 43.75,
+      "team": 1
+    },
+    {
+      "second": 24,
+      "player_id": 5,
+      "x": 24.16,
+      "y": 40.39,
+      "team": 2
+    },
+    {
+      "second": 24,
+      "player_id": 3,
+      "x": 19.71,
+      "y": 41.34,
+      "team": 2
+    },
+    {
+      "second": 24,
+      "player_id": 21,
+      "x": 10.06,
+      "y": 21.22,
+      "team": 2
+    },
+    {
+      "second": 24,
+      "player_id": 12,
+      "x": -0.12,
+      "y": 32.39,
+      "team": 1
+    },
+    {
+      "second": 24,
+      "player_id": 9,
+      "x": 9.59,
+      "y": 31.98,
+      "team": 2
+    },
+    {
+      "second": 24,
+      "player_id": 8,
+      "x": 28.99,
+      "y": 47.55,
+      "team": 2
+    },
+    {
+      "second": 24,
+      "player_id": 329,
+      "x": 35.91,
+      "y": 33.94,
+      "team": 2
+    },
+    {
+      "second": 24,
+      "player_id": 153,
+      "x": 32.81,
+      "y": 34.31,
+      "team": 2
+    },
+    {
+      "second": 24,
+      "player_id": 14,
+      "x": 25.33,
+      "y": 28.84,
+      "team": 2
+    },
+    {
+      "second": 25,
+      "player_id": 17,
+      "x": 17.68,
+      "y": 45.0,
+      "team": 1
+    },
+    {
+      "second": 25,
+      "player_id": 166,
+      "x": 6.72,
+      "y": 20.97,
+      "team": 1
+    },
+    {
+      "second": 25,
+      "player_id": 13,
+      "x": 4.31,
+      "y": 49.85,
+      "team": 2
+    },
+    {
+      "second": 25,
+      "player_id": 15,
+      "x": 2.92,
+      "y": 49.87,
+      "team": 1
+    },
+    {
+      "second": 25,
+      "player_id": 6,
+      "x": 2.57,
+      "y": 41.47,
+      "team": 1
+    },
+    {
+      "second": 25,
+      "player_id": 10,
+      "x": 13.54,
+      "y": 42.66,
+      "team": 1
+    },
+    {
+      "second": 25,
+      "player_id": 4,
+      "x": 16.44,
+      "y": 39.62,
+      "team": 2
+    },
+    {
+      "second": 25,
+      "player_id": 51,
+      "x": 18.48,
+      "y": 52.71,
+      "team": 2
+    },
+    {
+      "second": 25,
+      "player_id": 3,
+      "x": 19.7,
+      "y": 39.68,
+      "team": 2
+    },
+    {
+      "second": 25,
+      "player_id": 21,
+      "x": 10.1,
+      "y": 21.07,
+      "team": 2
+    },
+    {
+      "second": 25,
+      "player_id": 12,
+      "x": 1.11,
+      "y": 32.26,
+      "team": 1
+    },
+    {
+      "second": 25,
+      "player_id": 1,
+      "x": 16.1,
+      "y": 50.31,
+      "team": 1
+    },
+    {
+      "second": 25,
+      "player_id": 5,
+      "x": 24.86,
+      "y": 39.54,
+      "team": 2
+    },
+    {
+      "second": 25,
+      "player_id": 11,
+      "x": 4.93,
+      "y": 42.09,
+      "team": 2
+    },
+    {
+      "second": 25,
+      "player_id": 9,
+      "x": 10.65,
+      "y": 32.17,
+      "team": 2
+    },
+    {
+      "second": 25,
+      "player_id": 19,
+      "x": 9.84,
+      "y": 36.29,
+      "team": 1
+    },
+    {
+      "second": 25,
+      "player_id": 14,
+      "x": 24.73,
+      "y": 28.03,
+      "team": 2
+    },
+    {
+      "second": 25,
+      "player_id": 329,
+      "x": 36.37,
+      "y": 31.99,
+      "team": 2
+    },
+    {
+      "second": 25,
+      "player_id": 344,
+      "x": 27.85,
+      "y": 48.14,
+      "team": 2
+    },
+    {
+      "second": 25,
+      "player_id": 153,
+      "x": 32.69,
+      "y": 33.38,
+      "team": 2
+    },
+    {
+      "second": 25,
+      "player_id": 8,
+      "x": 28.06,
+      "y": 48.1,
+      "team": 2
+    },
+    {
+      "second": 26,
+      "player_id": 5,
+      "x": 25.05,
+      "y": 39.36,
+      "team": 2
+    },
+    {
+      "second": 26,
+      "player_id": 11,
+      "x": 8.12,
+      "y": 42.4,
+      "team": 2
+    },
+    {
+      "second": 26,
+      "player_id": 3,
+      "x": 18.44,
+      "y": 40.19,
+      "team": 2
+    },
+    {
+      "second": 26,
+      "player_id": 8,
+      "x": 26.72,
+      "y": 48.29,
+      "team": 2
+    },
+    {
+      "second": 26,
+      "player_id": 6,
+      "x": 6.19,
+      "y": 41.86,
+      "team": 1
+    },
+    {
+      "second": 26,
+      "player_id": 19,
+      "x": 10.04,
+      "y": 37.73,
+      "team": 1
+    },
+    {
+      "second": 26,
+      "player_id": 4,
+      "x": 17.28,
+      "y": 40.08,
+      "team": 2
+    },
+    {
+      "second": 26,
+      "player_id": 12,
+      "x": 1.86,
+      "y": 32.74,
+      "team": 1
+    },
+    {
+      "second": 26,
+      "player_id": 344,
+      "x": 26.22,
+      "y": 46.77,
+      "team": 2
+    },
+    {
+      "second": 26,
+      "player_id": 1,
+      "x": 14.11,
+      "y": 49.62,
+      "team": 1
+    },
+    {
+      "second": 26,
+      "player_id": 10,
+      "x": 13.82,
+      "y": 43.18,
+      "team": 1
+    },
+    {
+      "second": 26,
+      "player_id": 166,
+      "x": 5.78,
+      "y": 20.66,
+      "team": 1
+    },
+    {
+      "second": 26,
+      "player_id": 153,
+      "x": 31.46,
+      "y": 33.82,
+      "team": 2
+    },
+    {
+      "second": 26,
+      "player_id": 329,
+      "x": 36.2,
+      "y": 30.42,
+      "team": 2
+    },
+    {
+      "second": 26,
+      "player_id": 51,
+      "x": 16.43,
+      "y": 53.88,
+      "team": 2
+    },
+    {
+      "second": 26,
+      "player_id": 9,
+      "x": 10.69,
+      "y": 32.3,
+      "team": 2
+    },
+    {
+      "second": 26,
+      "player_id": 21,
+      "x": 8.86,
+      "y": 20.24,
+      "team": 2
+    },
+    {
+      "second": 26,
+      "player_id": 15,
+      "x": 2.13,
+      "y": 49.51,
+      "team": 1
+    },
+    {
+      "second": 26,
+      "player_id": 17,
+      "x": 17.94,
+      "y": 45.32,
+      "team": 1
+    },
+    {
+      "second": 26,
+      "player_id": 14,
+      "x": 23.79,
+      "y": 28.01,
+      "team": 2
+    },
+    {
+      "second": 26,
+      "player_id": 13,
+      "x": 2.84,
+      "y": 49.86,
+      "team": 2
+    },
+    {
+      "second": 27,
+      "player_id": 17,
+      "x": 18.31,
+      "y": 46.71,
+      "team": 1
+    },
+    {
+      "second": 27,
+      "player_id": 51,
+      "x": 14.91,
+      "y": 55.34,
+      "team": 2
+    },
+    {
+      "second": 27,
+      "player_id": 8,
+      "x": 25.3,
+      "y": 48.45,
+      "team": 2
+    },
+    {
+      "second": 27,
+      "player_id": 344,
+      "x": 25.02,
+      "y": 45.72,
+      "team": 2
+    },
+    {
+      "second": 27,
+      "player_id": 5,
+      "x": 25.48,
+      "y": 39.21,
+      "team": 2
+    },
+    {
+      "second": 27,
+      "player_id": 3,
+      "x": 18.24,
+      "y": 40.46,
+      "team": 2
+    },
+    {
+      "second": 27,
+      "player_id": 6,
+      "x": 7.78,
+      "y": 43.25,
+      "team": 1
+    },
+    {
+      "second": 27,
+      "player_id": 12,
+      "x": 2.65,
+      "y": 32.99,
+      "team": 1
+    },
+    {
+      "second": 27,
+      "player_id": 166,
+      "x": 5.0,
+      "y": 20.37,
+      "team": 1
+    },
+    {
+      "second": 27,
+      "player_id": 15,
+      "x": 2.69,
+      "y": 50.68,
+      "team": 1
+    },
+    {
+      "second": 27,
+      "player_id": 10,
+      "x": 16.53,
+      "y": 45.68,
+      "team": 1
+    },
+    {
+      "second": 27,
+      "player_id": 1,
+      "x": 12.5,
+      "y": 51.13,
+      "team": 1
+    },
+    {
+      "second": 27,
+      "player_id": 19,
+      "x": 10.59,
+      "y": 37.4,
+      "team": 1
+    },
+    {
+      "second": 27,
+      "player_id": 153,
+      "x": 29.84,
+      "y": 33.66,
+      "team": 2
+    },
+    {
+      "second": 27,
+      "player_id": 329,
+      "x": 36.07,
+      "y": 29.97,
+      "team": 2
+    },
+    {
+      "second": 27,
+      "player_id": 11,
+      "x": 9.88,
+      "y": 43.55,
+      "team": 2
+    },
+    {
+      "second": 27,
+      "player_id": 14,
+      "x": 23.49,
+      "y": 27.53,
+      "team": 2
+    },
+    {
+      "second": 27,
+      "player_id": 4,
+      "x": 17.33,
+      "y": 39.26,
+      "team": 2
+    },
+    {
+      "second": 27,
+      "player_id": 9,
+      "x": 10.93,
+      "y": 31.98,
+      "team": 2
+    },
+    {
+      "second": 27,
+      "player_id": 21,
+      "x": 7.77,
+      "y": 19.58,
+      "team": 2
+    },
+    {
+      "second": 27,
+      "player_id": 13,
+      "x": 2.87,
+      "y": 49.29,
+      "team": 2
+    },
+    {
+      "second": 28,
+      "player_id": 14,
+      "x": 24.46,
+      "y": 27.5,
+      "team": 2
+    },
+    {
+      "second": 28,
+      "player_id": 11,
+      "x": 11.92,
+      "y": 47.18,
+      "team": 2
+    },
+    {
+      "second": 28,
+      "player_id": 12,
+      "x": 4.22,
+      "y": 33.91,
+      "team": 1
+    },
+    {
+      "second": 28,
+      "player_id": 8,
+      "x": 24.55,
+      "y": 49.64,
+      "team": 2
+    },
+    {
+      "second": 28,
+      "player_id": 344,
+      "x": 24.76,
+      "y": 45.82,
+      "team": 2
+    },
+    {
+      "second": 28,
+      "player_id": 6,
+      "x": 8.53,
+      "y": 46.79,
+      "team": 1
+    },
+    {
+      "second": 28,
+      "player_id": 17,
+      "x": 20.17,
+      "y": 47.12,
+      "team": 1
+    },
+    {
+      "second": 28,
+      "player_id": 4,
+      "x": 17.6,
+      "y": 38.95,
+      "team": 2
+    },
+    {
+      "second": 28,
+      "player_id": 10,
+      "x": 17.26,
+      "y": 48.18,
+      "team": 1
+    },
+    {
+      "second": 28,
+      "player_id": 166,
+      "x": 5.54,
+      "y": 20.56,
+      "team": 1
+    },
+    {
+      "second": 28,
+      "player_id": 3,
+      "x": 18.6,
+      "y": 41.31,
+      "team": 2
+    },
+    {
+      "second": 28,
+      "player_id": 51,
+      "x": 14.57,
+      "y": 57.52,
+      "team": 2
+    },
+    {
+      "second": 28,
+      "player_id": 9,
+      "x": 12.2,
+      "y": 32.52,
+      "team": 2
+    },
+    {
+      "second": 28,
+      "player_id": 19,
+      "x": 11.53,
+      "y": 38.58,
+      "team": 1
+    },
+    {
+      "second": 28,
+      "player_id": 153,
+      "x": 29.39,
+      "y": 33.79,
+      "team": 2
+    },
+    {
+      "second": 28,
+      "player_id": 1,
+      "x": 11.91,
+      "y": 53.94,
+      "team": 1
+    },
+    {
+      "second": 28,
+      "player_id": 329,
+      "x": 37.4,
+      "y": 30.14,
+      "team": 2
+    },
+    {
+      "second": 28,
+      "player_id": 5,
+      "x": 26.66,
+      "y": 39.39,
+      "team": 2
+    },
+    {
+      "second": 28,
+      "player_id": 21,
+      "x": 7.98,
+      "y": 18.59,
+      "team": 2
+    },
+    {
+      "second": 28,
+      "player_id": 15,
+      "x": 5.69,
+      "y": 50.52,
+      "team": 1
+    },
+    {
+      "second": 28,
+      "player_id": 13,
+      "x": 5.36,
+      "y": 50.17,
+      "team": 2
+    },
+    {
+      "second": 29,
+      "player_id": 1,
+      "x": 10.17,
+      "y": 54.93,
+      "team": 1
+    },
+    {
+      "second": 29,
+      "player_id": 17,
+      "x": 20.97,
+      "y": 48.16,
+      "team": 1
+    },
+    {
+      "second": 29,
+      "player_id": 10,
+      "x": 15.92,
+      "y": 49.34,
+      "team": 1
+    },
+    {
+      "second": 29,
+      "player_id": 12,
+      "x": 5.82,
+      "y": 34.58,
+      "team": 1
+    },
+    {
+      "second": 29,
+      "player_id": 344,
+      "x": 24.69,
+      "y": 45.75,
+      "team": 2
+    },
+    {
+      "second": 29,
+      "player_id": 14,
+      "x": 25.92,
+      "y": 27.8,
+      "team": 2
+    },
+    {
+      "second": 29,
+      "player_id": 8,
+      "x": 24.16,
+      "y": 51.14,
+      "team": 2
+    },
+    {
+      "second": 29,
+      "player_id": 21,
+      "x": 8.65,
+      "y": 18.11,
+      "team": 2
+    },
+    {
+      "second": 29,
+      "player_id": 4,
+      "x": 17.92,
+      "y": 39.68,
+      "team": 2
+    },
+    {
+      "second": 29,
+      "player_id": 5,
+      "x": 27.77,
+      "y": 39.74,
+      "team": 2
+    },
+    {
+      "second": 29,
+      "player_id": 166,
+      "x": 6.59,
+      "y": 21.56,
+      "team": 1
+    },
+    {
+      "second": 29,
+      "player_id": 3,
+      "x": 18.79,
+      "y": 42.08,
+      "team": 2
+    },
+    {
+      "second": 29,
+      "player_id": 51,
+      "x": 12.0,
+      "y": 58.34,
+      "team": 2
+    },
+    {
+      "second": 29,
+      "player_id": 9,
+      "x": 13.46,
+      "y": 32.67,
+      "team": 2
+    },
+    {
+      "second": 29,
+      "player_id": 329,
+      "x": 38.79,
+      "y": 31.01,
+      "team": 2
+    },
+    {
+      "second": 29,
+      "player_id": 11,
+      "x": 11.57,
+      "y": 51.32,
+      "team": 2
+    },
+    {
+      "second": 29,
+      "player_id": 19,
+      "x": 12.32,
+      "y": 40.0,
+      "team": 1
+    },
+    {
+      "second": 29,
+      "player_id": 13,
+      "x": 7.77,
+      "y": 48.88,
+      "team": 2
+    },
+    {
+      "second": 29,
+      "player_id": 153,
+      "x": 29.13,
+      "y": 34.56,
+      "team": 2
+    },
+    {
+      "second": 29,
+      "player_id": 6,
+      "x": 8.2,
+      "y": 50.09,
+      "team": 1
+    },
+    {
+      "second": 29,
+      "player_id": 15,
+      "x": 8.41,
+      "y": 48.31,
+      "team": 1
+    }
+  ]
+}
