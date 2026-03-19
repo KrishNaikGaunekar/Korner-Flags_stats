@@ -91,7 +91,10 @@ Plans:
 **Success Criteria** (what must be TRUE):
   1. Each clip page shows at least two heatmap images (one per team) rendered on a pitch background, generated from positions.json by mplsoccer
   2. The heatmaps are visually distinguishable by team color and labeled clearly enough that a coach can identify which team is which without reading a legend twice
-**Plans**: TBD
+**Plans:** 1 plan
+
+Plans:
+- [ ] 05-01-PLAN.md — Replace heatmaps placeholder with two-column PNG layout in clip detail page (SITE-05)
 
 ### Phase 6: Polish and Demo Readiness
 **Goal**: The site looks and reads like a credible coaching tool — correct NC State content loaded, plain English throughout, "How It Works" explainer present, and no broken layouts or playback failures across modern browsers
@@ -115,5 +118,5 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6
 | 2. Data Export and Video Processing | 4/4 | Complete   | 2026-03-17 |
 | 3. Site Scaffold and Video Playback | 3/3 | Complete   | 2026-03-19 |
 | 4. Stats Visualizations | 2/2 | Complete   | 2026-03-19 |
-| 5. Heatmap Visualizations | 0/TBD | Not started | - |
+| 5. Heatmap Visualizations | 0/1 | Not started | - |
 | 6. Polish and Demo Readiness | 0/TBD | Not started | - |
