@@ -1,0 +1,86 @@
+---
+const { team1Pct, team2Pct } = Astro.props;
+---
+
+<div class="possession-section">
+  <h4>Possession</h4>
+  <div class="possession-bar-wrap">
+    <span class="poss-label team1-label">
+      Team 1
+      <span class="poss-pct">{team1Pct}%</span>
+    </span>
+    <div
+      class="possession-bar"
+      role="img"
+      aria-label={`Team 1 possession ${team1Pct} percent, Team 2 possession ${team2Pct} percent`}
+    >
+      <div class="seg seg-team1" style={`width: ${team1Pct}%`}></div>
+      <div class="seg seg-team2" style={`width: ${team2Pct}%`}></div>
+    </div>
+    <span class="poss-label team2-label">
+      Team 2
+      <span class="poss-pct">{team2Pct}%</span>
+    </span>
+  </div>
+  <p class="disclaimer">AI-estimated ±5%</p>
+</div>
+
+<style>
+  h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #1d1d1f;
+    margin-bottom: 8px;
+  }
+
+  .possession-bar-wrap {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 8px;
+  }
+
+  .possession-bar {
+    display: flex;
+    flex: 1;
+    height: 40px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .seg-team1 {
+    background: #0071e3;
+  }
+
+  .seg-team2 {
+    background: #e8732a;
+  }
+
+  .poss-label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #1d1d1f;
+    white-space: nowrap;
+    min-width: 80px;
+  }
+
+  .team1-label {
+    text-align: right;
+  }
+
+  .team2-label {
+    text-align: left;
+  }
+
+  .poss-pct {
+    display: block;
+    font-size: 1.1rem;
+  }
+
+  .disclaimer {
+    margin-top: 8px;
+    font-size: 0.8rem;
+    color: #86868b;
+    text-align: center;
+  }
+</style>
