@@ -2,16 +2,14 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: planning
-stopped_at: Phase 4 context gathered
-last_updated: "2026-03-19T21:23:16.695Z"
-last_activity: 2026-03-16 — Roadmap created
+status: in_progress
+stopped_at: "Completed 04-01-PLAN.md"
+last_updated: "2026-03-19T22:00:00.000Z"
 progress:
   total_phases: 6
   completed_phases: 3
-  total_plans: 10
-  completed_plans: 10
-  percent: 33
+  total_plans: 12
+  completed_plans: 11
 ---
 
 # Project State
@@ -21,16 +19,12 @@ progress:
 See: .planning/PROJECT.md (updated 2026-03-16)
 
 **Core value:** A coach can drop in any match video and immediately see annotated footage with player tracking, possession %, and speed/distance stats — no setup, no expertise required.
-**Current focus:** Phase 1 — Pipeline Fixes and Validation
+**Current focus:** Phase 04 — stats-visualizations
 
 ## Current Position
 
-Phase: 1 of 6 (Pipeline Fixes and Validation)
-Plan: 0 of TBD in current phase
-Status: Ready to plan
-Last activity: 2026-03-16 — Roadmap created
-
-Progress: [███░░░░░░░] 33%
+Phase: 04 (stats-visualizations) — EXECUTING
+Plan: 2 of 2
 
 ## Performance Metrics
 
@@ -60,6 +54,7 @@ Progress: [███░░░░░░░] 33%
 | Phase 03 P01 | 3 | 3 tasks | 11 files |
 | Phase 03 P02 | 260 | 2 tasks | 5 files |
 | Phase 03 P03 | 15 | 3 tasks | 2 files |
+| Phase 04 P01 | 4 | 2 tasks | 3 files |
 
 ## Accumulated Context
 
@@ -88,6 +83,10 @@ Recent decisions affecting current work:
 - [Phase 03-02]: Plyr script tag uses standard import (not is:inline) to allow Astro bundling and CSS injection
 - [Phase 03]: Committed site/package-lock.json so withastro/action@v5 can detect npm as the package manager
 - [Phase 03]: site/.gitignore added to exclude node_modules/, dist/, .astro/ from git in monorepo structure
+- [Phase 04-01]: PlayerStatsTable uses two stacked static sections (no tabs, no client-side JS) — coaches scan by team naturally
+- [Phase 04-01]: Team 1 = #0071e3 (Apple blue), Team 2 = #e8732a (warm orange) — consistent across PossessionBar and PlayerStatsTable
+- [Phase 04-01]: Ghost player filtering (distance_m > 0 || max_speed_kmh > 0) deferred to [slug].astro caller (Plan 02)
+- [Phase 04-01]: SVG padlock used in ComingSoonCards instead of emoji — consistent monochrome rendering across platforms
 
 ### Pending Todos
 
@@ -101,6 +100,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-19T21:23:16.691Z
-Stopped at: Phase 4 context gathered
-Resume file: .planning/phases/04-stats-visualizations/04-CONTEXT.md
+Last session: 2026-03-19T22:00:00.000Z
+Stopped at: Completed 04-01-PLAN.md
+Resume file: .planning/phases/04-stats-visualizations/04-01-SUMMARY.md

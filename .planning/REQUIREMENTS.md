@@ -29,11 +29,11 @@
 - [x] **SITE-01**: GitHub Pages site deployed and accessible at project URL
 - [x] **SITE-02**: Index page shows gallery of all processed NC State clips (manifest-driven, 2-3 clips)
 - [x] **SITE-03**: Each clip page shows annotated video player (Plyr) with H.264 MP4 from GitHub Releases
-- [ ] **SITE-04**: Each clip page shows stats panel: possession % (per team), per-player speed and distance
+- [x] **SITE-04**: Each clip page shows stats panel: possession % (per team), per-player speed and distance
 - [ ] **SITE-05**: Each clip page shows team heatmaps (static PNG, one per team) from mplsoccer output
-- [ ] **SITE-06**: Possession % displayed with accuracy disclaimer (e.g. "AI-estimated ±5%")
-- [ ] **SITE-07**: Stats labeled in plain coaching language (not technical jargon)
-- [ ] **SITE-08**: Pass counts, shots, shots on target, assists shown as "Coming Soon" feature previews
+- [x] **SITE-06**: Possession % displayed with accuracy disclaimer (e.g. "AI-estimated ±5%")
+- [x] **SITE-07**: Stats labeled in plain coaching language (not technical jargon)
+- [x] **SITE-08**: Pass counts, shots, shots on target, assists shown as "Coming Soon" feature previews
 
 ### Content
 
@@ -96,10 +96,10 @@
 | SITE-01 | Phase 3 | Complete |
 | SITE-02 | Phase 3 | Complete |
 | SITE-03 | Phase 3 | Complete |
-| SITE-04 | Phase 4 | Pending |
-| SITE-06 | Phase 4 | Pending |
-| SITE-07 | Phase 4 | Pending |
-| SITE-08 | Phase 4 | Pending |
+| SITE-04 | Phase 4 | Complete |
+| SITE-06 | Phase 4 | Complete |
+| SITE-07 | Phase 4 | Complete |
+| SITE-08 | Phase 4 | Complete |
 | SITE-05 | Phase 5 | Pending |
 | CONT-01 | Phase 6 | Pending |
 | CONT-02 | Phase 6 | Pending |

@@ -78,7 +78,7 @@ Plans:
   1. Each clip page shows a possession % display (visual chart, not just a number) with per-team breakdown, including an accuracy disclaimer (e.g. "AI-estimated +/-5%")
   2. Each clip page shows a per-player table with speed (max and avg in km/h) and distance (m) using plain coaching language labels (not variable names or technical jargon)
   3. Pass counts, shots, shots on target, and assists appear on the page labeled as "Coming Soon" feature previews without displaying fabricated numbers
-**Plans:** 2 plans
+**Plans:** 1/2 plans executed
 
 Plans:
 - [ ] 04-01-PLAN.md — Create PossessionBar, PlayerStatsTable, and ComingSoonCards Astro components (SITE-04, SITE-06, SITE-07, SITE-08)
@@ -114,6 +114,6 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6
 | 1. Pipeline Fixes and Validation | 3/3 | Complete   | 2026-03-17 |
 | 2. Data Export and Video Processing | 4/4 | Complete   | 2026-03-17 |
 | 3. Site Scaffold and Video Playback | 3/3 | Complete   | 2026-03-19 |
-| 4. Stats Visualizations | 0/2 | Planning complete | - |
+| 4. Stats Visualizations | 1/2 | In Progress|  |
 | 5. Heatmap Visualizations | 0/TBD | Not started | - |
 | 6. Polish and Demo Readiness | 0/TBD | Not started | - |
