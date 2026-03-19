@@ -14,7 +14,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Pipeline Fixes and Validation** - Fix two confirmed bugs and validate YOLO detection on NC State footage before any demo footage is processed (completed 2026-03-17)
 - [x] **Phase 2: Data Export and Video Processing** - Generate all data artifacts (MP4, stats JSON, positions JSON, heatmap PNGs, manifest) needed by the site (completed 2026-03-17)
-- [ ] **Phase 3: Site Scaffold and Video Playback** - Deploy GitHub Pages site with Astro and get annotated video playing from GitHub Releases
+- [x] **Phase 3: Site Scaffold and Video Playback** - Deploy GitHub Pages site with Astro and get annotated video playing from GitHub Releases (completed 2026-03-19)
 - [ ] **Phase 4: Stats Visualizations** - Add possession and speed/distance panels to each clip page
 - [ ] **Phase 5: Heatmap Visualizations** - Embed per-team heatmap PNGs and optionally add browser-side interactive heatmap
 - [ ] **Phase 6: Polish and Demo Readiness** - NC State content, plain-language labels, "How It Works" explainer, cross-browser QA
@@ -63,7 +63,7 @@ Plans:
   1. Visiting the project URL shows an index page with a gallery of 2-3 NC State match cards (names, thumbnails or placeholders, links)
   2. Clicking a match card navigates to a match detail page where the annotated MP4 plays in a Plyr video player loaded from the GitHub Releases CDN URL
   3. GitHub Actions automatically rebuilds and deploys the site on every push to main without manual steps
-**Plans:** 2/3 plans executed
+**Plans:** 3/3 plans complete
 
 Plans:
 - [ ] 03-01-PLAN.md — Scaffold Astro project, migrate data files, extract thumbnails, create GitHub Actions workflow (SITE-01)
@@ -109,7 +109,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6
 |-------|----------------|--------|-----------|
 | 1. Pipeline Fixes and Validation | 3/3 | Complete   | 2026-03-17 |
 | 2. Data Export and Video Processing | 4/4 | Complete   | 2026-03-17 |
-| 3. Site Scaffold and Video Playback | 2/3 | In Progress|  |
+| 3. Site Scaffold and Video Playback | 3/3 | Complete   | 2026-03-19 |
 | 4. Stats Visualizations | 0/TBD | Not started | - |
 | 5. Heatmap Visualizations | 0/TBD | Not started | - |
 | 6. Polish and Demo Readiness | 0/TBD | Not started | - |

@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Completed 03-02-PLAN.md
-last_updated: "2026-03-19T20:45:55.117Z"
+stopped_at: Completed 03-03-PLAN.md
+last_updated: "2026-03-19T21:06:48.197Z"
 last_activity: 2026-03-16 — Roadmap created
 progress:
   total_phases: 6
-  completed_phases: 2
+  completed_phases: 3
   total_plans: 10
-  completed_plans: 9
+  completed_plans: 10
   percent: 33
 ---
 
@@ -57,6 +57,7 @@ Progress: [███░░░░░░░] 33%
 | Phase 02 P02 | 7 | 1 tasks | 3 files |
 | Phase 03 P01 | 3 | 3 tasks | 11 files |
 | Phase 03 P02 | 260 | 2 tasks | 5 files |
+| Phase 03 P03 | 15 | 3 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -83,6 +84,8 @@ Recent decisions affecting current work:
 - [Phase 03-01]: trailingSlash: always set in astro.config.mjs to guarantee clean BASE_URL trailing slash for public asset paths
 - [Phase 03-02]: Manifest import path from clips/[slug].astro requires ../../../public (3 levels up) vs ../../public from root pages/ directory
 - [Phase 03-02]: Plyr script tag uses standard import (not is:inline) to allow Astro bundling and CSS injection
+- [Phase 03]: Committed site/package-lock.json so withastro/action@v5 can detect npm as the package manager
+- [Phase 03]: site/.gitignore added to exclude node_modules/, dist/, .astro/ from git in monorepo structure
 
 ### Pending Todos
 
@@ -96,6 +99,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-19T20:45:55.113Z
-Stopped at: Completed 03-02-PLAN.md
+Last session: 2026-03-19T21:06:48.192Z
+Stopped at: Completed 03-03-PLAN.md
 Resume file: None
