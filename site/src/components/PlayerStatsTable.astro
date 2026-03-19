@@ -1,0 +1,116 @@
+---
+const { team1Players, team2Players } = Astro.props;
+---
+
+<div class="player-stats-section">
+  <div class="team-table-wrap">
+    <h4 class="team-heading" style="border-left: 4px solid #0071e3; padding-left: 12px;">Team 1</h4>
+    <div class="table-scroll-wrap">
+      <table class="stats-table">
+        <thead>
+          <tr>
+            <th scope="col">Player</th>
+            <th scope="col">Top Speed</th>
+            <th scope="col">Avg Speed</th>
+            <th scope="col">Distance</th>
+          </tr>
+        </thead>
+        <tbody>
+          {team1Players.map((p) => (
+            <tr>
+              <td>#{p.id}</td>
+              <td>{p.max_speed_kmh.toFixed(1)} km/h</td>
+              <td>{p.avg_speed_kmh.toFixed(1)} km/h</td>
+              <td>{p.distance_m.toFixed(1)} m</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="team-table-wrap">
+    <h4 class="team-heading" style="border-left: 4px solid #e8732a; padding-left: 12px;">Team 2</h4>
+    <div class="table-scroll-wrap">
+      <table class="stats-table">
+        <thead>
+          <tr>
+            <th scope="col">Player</th>
+            <th scope="col">Top Speed</th>
+            <th scope="col">Avg Speed</th>
+            <th scope="col">Distance</th>
+          </tr>
+        </thead>
+        <tbody>
+          {team2Players.map((p) => (
+            <tr>
+              <td>#{p.id}</td>
+              <td>{p.max_speed_kmh.toFixed(1)} km/h</td>
+              <td>{p.avg_speed_kmh.toFixed(1)} km/h</td>
+              <td>{p.distance_m.toFixed(1)} m</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <p class="disclaimer">AI-estimated from video — values are approximate</p>
+</div>
+
+<style>
+  .player-stats-section {
+    margin-top: 32px;
+  }
+
+  .team-table-wrap {
+    margin-bottom: 24px;
+  }
+
+  .team-heading {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #1d1d1f;
+    margin-bottom: 12px;
+  }
+
+  .table-scroll-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .stats-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+    min-width: 400px;
+  }
+
+  .stats-table th {
+    text-align: left;
+    padding: 10px 16px;
+    font-weight: 600;
+    color: #6e6e73;
+    border-bottom: 2px solid #e5e5e7;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .stats-table td {
+    padding: 10px 16px;
+    border-bottom: 1px solid #f0f0f0;
+    color: #1d1d1f;
+  }
+
+  .stats-table tbody tr:hover {
+    background: #f9f9fb;
+  }
+
+  .disclaimer {
+    margin-top: 8px;
+    font-size: 0.8rem;
+    color: #86868b;
+    text-align: center;
+  }
+</style>
