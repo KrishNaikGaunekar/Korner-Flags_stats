@@ -1,13 +1,33 @@
 ---
-// Placeholder index page — full gallery UI built in Plan 02
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ClipCard from '../components/ClipCard.astro';
+import manifestData from '../../public/data/manifest.json';
 ---
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Korner Flags</title>
-  </head>
-  <body>
-    <h1>Korner Flags</h1>
-  </body>
-</html>
+
+<BaseLayout title="Match Analysis">
+  <section class="gallery">
+    <h2 class="gallery-heading">Match Clips</h2>
+    <div class="gallery-grid">
+      {manifestData.clips.map((clip) => <ClipCard clip={clip} />)}
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .gallery {
+    margin-top: 2.5rem;
+  }
+
+  .gallery-heading {
+    font-size: 1.35rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: #1d1d1f;
+  }
+
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.5rem;
+  }
+</style>
