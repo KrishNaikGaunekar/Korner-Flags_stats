@@ -2,6 +2,9 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import VideoPlayer from '../../components/VideoPlayer.astro';
 import manifestData from '../../../public/data/manifest.json';
+import PossessionBar from '../../components/PossessionBar.astro';
+import PlayerStatsTable from '../../components/PlayerStatsTable.astro';
+import ComingSoonCards from '../../components/ComingSoonCards.astro';
 
 const base = import.meta.env.BASE_URL;
 
@@ -13,6 +16,23 @@ export function getStaticPaths() {
 }
 
 const { clip } = Astro.props;
+
+// Import stats JSON at build time — Vite resolves template literal with literal prefix
+const statsModule = await import(`../../../public/data/${clip.clip_id}_annotated_stats.json`);
+const stats = statsModule.default;
+
+// Extract possession percentages
+const t1Pct = stats.possession.team_1_percent;
+const t2Pct = stats.possession.team_2_percent;
+
+// Partition players by team, filter ghost entries (all zeros), sort by ID ascending
+const allPlayers = Object.entries(stats.players)
+  .map(([id, data]) => ({ id: Number(id), ...data }))
+  .filter(p => p.distance_m > 0 || p.max_speed_kmh > 0)
+  .sort((a, b) => a.id - b.id);
+
+const team1Players = allPlayers.filter(p => p.team === 1);
+const team2Players = allPlayers.filter(p => p.team === 2);
 ---
 
 <BaseLayout title={clip.title}>
@@ -23,9 +43,11 @@ const { clip } = Astro.props;
     poster={`${base}${clip.thumbnail_url.replace(/^\//, '')}`}
     title={clip.title}
   />
-  <section class="stats-placeholder">
+  <section class="stats-section">
     <h3>Match Statistics</h3>
-    <p class="placeholder-text">Coming in the next update.</p>
+    <PossessionBar team1Pct={t1Pct} team2Pct={t2Pct} />
+    <PlayerStatsTable team1Players={team1Players} team2Players={team2Players} />
+    <ComingSoonCards />
   </section>
   <section class="heatmaps-placeholder">
     <h3>Team Heatmaps</h3>
@@ -53,7 +75,20 @@ const { clip } = Astro.props;
     color: #1d1d1f;
   }
 
-  .stats-placeholder,
+  .stats-section {
+    margin-top: 2.5rem;
+    padding: 2rem;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  }
+
+  .stats-section h3 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+
   .heatmaps-placeholder {
     margin-top: 2.5rem;
     padding: 2rem;
@@ -62,7 +97,6 @@ const { clip } = Astro.props;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
   }
 
-  .stats-placeholder h3,
   .heatmaps-placeholder h3 {
     font-size: 1.15rem;
     font-weight: 600;
