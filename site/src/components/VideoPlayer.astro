@@ -1,0 +1,35 @@
+---
+interface Props {
+  src: string;
+  poster: string;
+  title: string;
+}
+
+const { src, poster, title } = Astro.props;
+---
+
+<div class="player-wrapper">
+  <video id="plyr-player" playsinline controls data-poster={poster} aria-label={title}>
+    <source src={src} type="video/mp4" />
+  </video>
+</div>
+
+<script>
+  import Plyr from 'plyr';
+  import 'plyr/dist/plyr.css';
+
+  const player = new Plyr('#plyr-player', {
+    controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'fullscreen'],
+  });
+</script>
+
+<style>
+  .player-wrapper {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+</style>

@@ -1,0 +1,76 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import VideoPlayer from '../../components/VideoPlayer.astro';
+import manifestData from '../../../public/data/manifest.json';
+
+const base = import.meta.env.BASE_URL;
+
+export function getStaticPaths() {
+  return manifestData.clips.map((clip) => ({
+    params: { slug: clip.clip_id },
+    props: { clip },
+  }));
+}
+
+const { clip } = Astro.props;
+---
+
+<BaseLayout title={clip.title}>
+  <a href={`${base}`} class="back-link">&larr; Back to clips</a>
+  <h2 class="clip-heading">{clip.title}</h2>
+  <VideoPlayer
+    src={clip.video_url}
+    poster={`${base}${clip.thumbnail_url.replace(/^\//, '')}`}
+    title={clip.title}
+  />
+  <section class="stats-placeholder">
+    <h3>Match Statistics</h3>
+    <p class="placeholder-text">Coming in the next update.</p>
+  </section>
+  <section class="heatmaps-placeholder">
+    <h3>Team Heatmaps</h3>
+    <p class="placeholder-text">Coming in the next update.</p>
+  </section>
+</BaseLayout>
+
+<style>
+  .back-link {
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+    color: #0066cc;
+    text-decoration: none;
+  }
+
+  .back-link:hover {
+    text-decoration: underline;
+  }
+
+  .clip-heading {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: #1d1d1f;
+  }
+
+  .stats-placeholder,
+  .heatmaps-placeholder {
+    margin-top: 2.5rem;
+    padding: 2rem;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  }
+
+  .stats-placeholder h3,
+  .heatmaps-placeholder h3 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+
+  .placeholder-text {
+    color: #6e6e73;
+    font-size: 0.95rem;
+  }
+</style>
