@@ -63,7 +63,7 @@ Plans:
   1. Visiting the project URL shows an index page with a gallery of 2-3 NC State match cards (names, thumbnails or placeholders, links)
   2. Clicking a match card navigates to a match detail page where the annotated MP4 plays in a Plyr video player loaded from the GitHub Releases CDN URL
   3. GitHub Actions automatically rebuilds and deploys the site on every push to main without manual steps
-**Plans:** 1/3 plans executed
+**Plans:** 2/3 plans executed
 
 Plans:
 - [ ] 03-01-PLAN.md — Scaffold Astro project, migrate data files, extract thumbnails, create GitHub Actions workflow (SITE-01)
@@ -109,7 +109,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6
 |-------|----------------|--------|-----------|
 | 1. Pipeline Fixes and Validation | 3/3 | Complete   | 2026-03-17 |
 | 2. Data Export and Video Processing | 4/4 | Complete   | 2026-03-17 |
-| 3. Site Scaffold and Video Playback | 1/3 | In Progress|  |
+| 3. Site Scaffold and Video Playback | 2/3 | In Progress|  |
 | 4. Stats Visualizations | 0/TBD | Not started | - |
 | 5. Heatmap Visualizations | 0/TBD | Not started | - |
 | 6. Polish and Demo Readiness | 0/TBD | Not started | - |

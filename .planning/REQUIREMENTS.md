@@ -27,8 +27,8 @@
 ### Demo Site
 
 - [x] **SITE-01**: GitHub Pages site deployed and accessible at project URL
-- [ ] **SITE-02**: Index page shows gallery of all processed NC State clips (manifest-driven, 2-3 clips)
-- [ ] **SITE-03**: Each clip page shows annotated video player (Plyr) with H.264 MP4 from GitHub Releases
+- [x] **SITE-02**: Index page shows gallery of all processed NC State clips (manifest-driven, 2-3 clips)
+- [x] **SITE-03**: Each clip page shows annotated video player (Plyr) with H.264 MP4 from GitHub Releases
 - [ ] **SITE-04**: Each clip page shows stats panel: possession % (per team), per-player speed and distance
 - [ ] **SITE-05**: Each clip page shows team heatmaps (static PNG, one per team) from mplsoccer output
 - [ ] **SITE-06**: Possession % displayed with accuracy disclaimer (e.g. "AI-estimated ±5%")
@@ -94,8 +94,8 @@
 | HOST-01 | Phase 2 | Complete |
 | HOST-02 | Phase 2 | Complete |
 | SITE-01 | Phase 3 | Complete |
-| SITE-02 | Phase 3 | Pending |
-| SITE-03 | Phase 3 | Pending |
+| SITE-02 | Phase 3 | Complete |
+| SITE-03 | Phase 3 | Complete |
 | SITE-04 | Phase 4 | Pending |
 | SITE-06 | Phase 4 | Pending |
 | SITE-07 | Phase 4 | Pending |

@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Completed 03-01-PLAN.md
-last_updated: "2026-03-18T16:17:01.533Z"
+stopped_at: Completed 03-02-PLAN.md
+last_updated: "2026-03-19T20:45:55.117Z"
 last_activity: 2026-03-16 — Roadmap created
 progress:
   total_phases: 6
   completed_phases: 2
   total_plans: 10
-  completed_plans: 8
+  completed_plans: 9
   percent: 33
 ---
 
@@ -56,6 +56,7 @@ Progress: [███░░░░░░░] 33%
 | Phase 02 P01 | 18 | 2 tasks | 6 files |
 | Phase 02 P02 | 7 | 1 tasks | 3 files |
 | Phase 03 P01 | 3 | 3 tasks | 11 files |
+| Phase 03 P02 | 260 | 2 tasks | 5 files |
 
 ## Accumulated Context
 
@@ -80,6 +81,8 @@ Recent decisions affecting current work:
 - [Phase 02-01]: export_positions() uses round(fps) as sample interval for exact 1 Hz; positions_path strips _annotated suffix for clean filename
 - [Phase 03-01]: Manual Astro scaffold used instead of npm create astro due to interactive TTY requirement
 - [Phase 03-01]: trailingSlash: always set in astro.config.mjs to guarantee clean BASE_URL trailing slash for public asset paths
+- [Phase 03-02]: Manifest import path from clips/[slug].astro requires ../../../public (3 levels up) vs ../../public from root pages/ directory
+- [Phase 03-02]: Plyr script tag uses standard import (not is:inline) to allow Astro bundling and CSS injection
 
 ### Pending Todos
 
@@ -93,6 +96,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-18T16:17:01.527Z
-Stopped at: Completed 03-01-PLAN.md
+Last session: 2026-03-19T20:45:55.113Z
+Stopped at: Completed 03-02-PLAN.md
 Resume file: None
