@@ -2,14 +2,14 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: in_progress
-stopped_at: "Completed 04-01-PLAN.md"
-last_updated: "2026-03-19T22:00:00.000Z"
+status: unknown
+stopped_at: "Checkpoint 04-02 Task 2: human-verify visual layout"
+last_updated: "2026-03-19T21:45:09.091Z"
 progress:
   total_phases: 6
-  completed_phases: 3
+  completed_phases: 4
   total_plans: 12
-  completed_plans: 11
+  completed_plans: 12
 ---
 
 # Project State
@@ -55,6 +55,7 @@ Plan: 2 of 2
 | Phase 03 P02 | 260 | 2 tasks | 5 files |
 | Phase 03 P03 | 15 | 3 tasks | 2 files |
 | Phase 04 P01 | 4 | 2 tasks | 3 files |
+| Phase 04 P02 | 15 | 1 tasks | 1 files |
 
 ## Accumulated Context
 
@@ -87,6 +88,8 @@ Recent decisions affecting current work:
 - [Phase 04-01]: Team 1 = #0071e3 (Apple blue), Team 2 = #e8732a (warm orange) — consistent across PossessionBar and PlayerStatsTable
 - [Phase 04-01]: Ghost player filtering (distance_m > 0 || max_speed_kmh > 0) deferred to [slug].astro caller (Plan 02)
 - [Phase 04-01]: SVG padlock used in ComingSoonCards instead of emoji — consistent monochrome rendering across platforms
+- [Phase 04]: Dynamic JSON import uses template literal with literal prefix so Vite resolves at build time
+- [Phase 04]: Ghost player filter (distance_m > 0 || max_speed_kmh > 0) applied in [slug].astro caller, not inside PlayerStatsTable component
 
 ### Pending Todos
 
@@ -100,6 +103,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-19T22:00:00.000Z
-Stopped at: Completed 04-01-PLAN.md
-Resume file: .planning/phases/04-stats-visualizations/04-01-SUMMARY.md
+Last session: 2026-03-19T21:45:01.609Z
+Stopped at: Checkpoint 04-02 Task 2: human-verify visual layout
+Resume file: None

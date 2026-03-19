@@ -15,7 +15,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 1: Pipeline Fixes and Validation** - Fix two confirmed bugs and validate YOLO detection on NC State footage before any demo footage is processed (completed 2026-03-17)
 - [x] **Phase 2: Data Export and Video Processing** - Generate all data artifacts (MP4, stats JSON, positions JSON, heatmap PNGs, manifest) needed by the site (completed 2026-03-17)
 - [x] **Phase 3: Site Scaffold and Video Playback** - Deploy GitHub Pages site with Astro and get annotated video playing from GitHub Releases (completed 2026-03-19)
-- [ ] **Phase 4: Stats Visualizations** - Add possession and speed/distance panels to each clip page
+- [x] **Phase 4: Stats Visualizations** - Add possession and speed/distance panels to each clip page (completed 2026-03-19)
 - [ ] **Phase 5: Heatmap Visualizations** - Embed per-team heatmap PNGs and optionally add browser-side interactive heatmap
 - [ ] **Phase 6: Polish and Demo Readiness** - NC State content, plain-language labels, "How It Works" explainer, cross-browser QA
 
@@ -78,7 +78,7 @@ Plans:
   1. Each clip page shows a possession % display (visual chart, not just a number) with per-team breakdown, including an accuracy disclaimer (e.g. "AI-estimated +/-5%")
   2. Each clip page shows a per-player table with speed (max and avg in km/h) and distance (m) using plain coaching language labels (not variable names or technical jargon)
   3. Pass counts, shots, shots on target, and assists appear on the page labeled as "Coming Soon" feature previews without displaying fabricated numbers
-**Plans:** 1/2 plans executed
+**Plans:** 2/2 plans complete
 
 Plans:
 - [ ] 04-01-PLAN.md — Create PossessionBar, PlayerStatsTable, and ComingSoonCards Astro components (SITE-04, SITE-06, SITE-07, SITE-08)
@@ -114,6 +114,6 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6
 | 1. Pipeline Fixes and Validation | 3/3 | Complete   | 2026-03-17 |
 | 2. Data Export and Video Processing | 4/4 | Complete   | 2026-03-17 |
 | 3. Site Scaffold and Video Playback | 3/3 | Complete   | 2026-03-19 |
-| 4. Stats Visualizations | 1/2 | In Progress|  |
+| 4. Stats Visualizations | 2/2 | Complete   | 2026-03-19 |
 | 5. Heatmap Visualizations | 0/TBD | Not started | - |
 | 6. Polish and Demo Readiness | 0/TBD | Not started | - |
