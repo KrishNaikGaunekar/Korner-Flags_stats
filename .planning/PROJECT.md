@@ -21,6 +21,10 @@ A coach can drop in any match video and immediately see annotated footage with p
 - ✓ Stats JSON output alongside annotated video — existing
 - ✓ Camera movement estimation via optical flow — existing
 
+### Validated
+
+- ✓ Stats visualizations on clip detail page — possession bar, player speed/distance table, coming-soon teaser cards — Validated in Phase 04: stats-visualizations
+
 ### Active
 
 - [ ] Static demo site on GitHub Pages showing pre-processed NC State D1 clips
@@ -66,4 +70,4 @@ A coach can drop in any match video and immediately see annotated footage with p
 | FastAPI + Next.js for Phase 2 web app | Standard stack for ML-backed web apps; clean separation of concerns | — Pending |
 
 ---
-*Last updated: 2026-03-16 after initialization*
+*Last updated: 2026-03-19 — Phase 04 (stats-visualizations) complete*
