@@ -49,9 +49,30 @@ const team2Players = allPlayers.filter(p => p.team === 2);
     <PlayerStatsTable team1Players={team1Players} team2Players={team2Players} />
     <ComingSoonCards />
   </section>
-  <section class="heatmaps-placeholder">
+  <section class="heatmaps-section">
     <h3>Team Heatmaps</h3>
-    <p class="placeholder-text">Coming in the next update.</p>
+    <p class="heatmaps-subtitle">Where each team spent most of their time on the pitch</p>
+    <div class="heatmaps-grid">
+      <div class="heatmap-col">
+        <h4 class="team-label team1-label">Team 1</h4>
+        <img
+          src={`${base}${clip.heatmap_team1_url.replace(/^\//, '')}`}
+          alt="Team 1 positional heatmap — pitch coverage density for this match"
+          class="heatmap-img"
+          loading="lazy"
+        />
+      </div>
+      <div class="heatmap-col">
+        <h4 class="team-label team2-label">Team 2</h4>
+        <img
+          src={`${base}${clip.heatmap_team2_url.replace(/^\//, '')}`}
+          alt="Team 2 positional heatmap — pitch coverage density for this match"
+          class="heatmap-img"
+          loading="lazy"
+        />
+      </div>
+    </div>
+    <p class="disclaimer-text">AI-estimated from video — values are approximate</p>
   </section>
 </BaseLayout>
 
@@ -89,7 +110,7 @@ const team2Players = allPlayers.filter(p => p.team === 2);
     margin-bottom: 1rem;
   }
 
-  .heatmaps-placeholder {
+  .heatmaps-section {
     margin-top: 2.5rem;
     padding: 2rem;
     background: #ffffff;
@@ -97,14 +118,53 @@ const team2Players = allPlayers.filter(p => p.team === 2);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
   }
 
-  .heatmaps-placeholder h3 {
+  .heatmaps-section h3 {
     font-size: 1.15rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+  }
+
+  .heatmaps-subtitle {
+    font-size: 0.95rem;
+    color: #6e6e73;
+    margin-bottom: 1.25rem;
+  }
+
+  .heatmaps-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+
+  @media (max-width: 640px) {
+    .heatmaps-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .team-label {
+    font-size: 1rem;
     font-weight: 600;
     margin-bottom: 0.5rem;
   }
 
-  .placeholder-text {
-    color: #6e6e73;
-    font-size: 0.95rem;
+  .team1-label {
+    color: #0071e3;
+  }
+
+  .team2-label {
+    color: #e8732a;
+  }
+
+  .heatmap-img {
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+  }
+
+  .disclaimer-text {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    color: #86868b;
   }
 </style>
