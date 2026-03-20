@@ -30,7 +30,7 @@ A coach can drop in any match video and immediately see annotated footage with p
 - [ ] Static demo site on GitHub Pages showing pre-processed NC State D1 clips
 - [ ] Annotated video player with stats panel (possession %, speed, distance) per clip
 - [ ] Browse multiple pre-analyzed matches
-- [ ] Heatmap generation (player position density over match)
+- ✓ Heatmap generation (player position density over match) — Validated in Phase 05: heatmap-visualizations
 - [ ] Pass/event detection flagging
 - [ ] Demo-ready with 2-3 NC State D1 soccer clips processed and uploaded
 
@@ -43,7 +43,7 @@ A coach can drop in any match video and immediately see annotated footage with p
 
 ## Context
 
-- **Current state:** Working CLI pipeline. Run `python main.py --input match.mp4` to get annotated video + stats JSON.
+- **Current state:** Phase 05 complete — clip pages now display live team heatmap PNGs in a two-column layout with team-colored headings and AI disclaimer. Phase 06 (polish-and-demo-readiness) is next. Run `python main.py --input match.mp4` to get annotated video + stats JSON.
 - **Demo target:** NC State soccer coaching staff — needs to be polished, browsable at a URL, focused on D1 footage
 - **Video footage:** NC State D1 soccer clips still need to be sourced/acquired
 - **Domain:** User has a domain name available for deployment
