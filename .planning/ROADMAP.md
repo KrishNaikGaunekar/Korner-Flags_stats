@@ -105,7 +105,10 @@ Plans:
   2. A "How It Works" section on the site explains the AI pipeline in plain language that a coaching staff member with no ML background can follow
   3. No stat labels, chart axis titles, or UI strings contain variable names, technical jargon, or code identifiers visible to the end user
   4. The annotated video player loads and plays correctly in Chrome, Firefox, and Safari on desktop without buffering errors or missing controls
-**Plans**: TBD
+**Plans:** 1 plan
+
+Plans:
+- [ ] 06-01-PLAN.md — Add second clip to manifest, page intro, and How It Works section (CONT-01, CONT-02)
 
 ## Progress
 
@@ -119,4 +122,4 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6
 | 3. Site Scaffold and Video Playback | 3/3 | Complete   | 2026-03-19 |
 | 4. Stats Visualizations | 2/2 | Complete   | 2026-03-19 |
 | 5. Heatmap Visualizations | 1/1 | Complete   | 2026-03-20 |
-| 6. Polish and Demo Readiness | 0/TBD | Not started | - |
+| 6. Polish and Demo Readiness | 0/1 | Not started | - |
