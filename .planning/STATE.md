@@ -3,13 +3,13 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: unknown
-stopped_at: Phase 06 context gathered
-last_updated: "2026-03-20T00:50:20.109Z"
+stopped_at: Completed 06-01-PLAN.md
+last_updated: "2026-03-20T01:08:42.274Z"
 progress:
   total_phases: 6
-  completed_phases: 5
-  total_plans: 13
-  completed_plans: 13
+  completed_phases: 6
+  total_plans: 14
+  completed_plans: 14
 ---
 
 # Project State
@@ -19,11 +19,11 @@ progress:
 See: .planning/PROJECT.md (updated 2026-03-16)
 
 **Core value:** A coach can drop in any match video and immediately see annotated footage with player tracking, possession %, and speed/distance stats — no setup, no expertise required.
-**Current focus:** Phase 05 — heatmap-visualizations
+**Current focus:** Phase 06 — polish-and-demo-readiness
 
 ## Current Position
 
-Phase: 05 (heatmap-visualizations) — EXECUTING
+Phase: 06 (polish-and-demo-readiness) — EXECUTING
 Plan: 1 of 1
 
 ## Performance Metrics
@@ -57,6 +57,7 @@ Plan: 1 of 1
 | Phase 04 P01 | 4 | 2 tasks | 3 files |
 | Phase 04 P02 | 15 | 1 tasks | 1 files |
 | Phase 05 P01 | 5 | 1 tasks | 1 files |
+| Phase 06 P01 | 5 | 2 tasks | 3 files |
 
 ## Accumulated Context
 
@@ -93,6 +94,8 @@ Recent decisions affecting current work:
 - [Phase 04]: Ghost player filter (distance_m > 0 || max_speed_kmh > 0) applied in [slug].astro caller, not inside PlayerStatsTable component
 - [Phase 05]: Heatmap images use identical BASE_URL stripping pattern as ClipCard.astro thumbnails — no new patterns introduced
 - [Phase 05]: Section is purely static: no client-side JS, no client:* directives, no Vite asset imports
+- [Phase 06]: Second clip uses placeholder duplicate stats JSON (identical to clip 1) — demo shows gallery UX without rerunning ML pipeline
+- [Phase 06]: Page intro uses p not h1 — BaseLayout already renders global h1; How It Works uses h2/h3 hierarchy matching gallery heading level
 
 ### Pending Todos
 
@@ -106,6 +109,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-20T00:50:20.104Z
-Stopped at: Phase 06 context gathered
-Resume file: .planning/phases/06-polish-and-demo-readiness/06-CONTEXT.md
+Last session: 2026-03-20T01:08:42.270Z
+Stopped at: Completed 06-01-PLAN.md
+Resume file: None

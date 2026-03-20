@@ -37,8 +37,8 @@
 
 ### Content
 
-- [ ] **CONT-01**: Minimum 2 NC State D1 soccer clips processed and available on the site
-- [ ] **CONT-02**: "How It Works" section explaining the AI pipeline in plain language for coaching audience
+- [x] **CONT-01**: Minimum 2 NC State D1 soccer clips processed and available on the site
+- [x] **CONT-02**: "How It Works" section explaining the AI pipeline in plain language for coaching audience
 
 ## v2 Requirements
 
@@ -101,8 +101,8 @@
 | SITE-07 | Phase 4 | Complete |
 | SITE-08 | Phase 4 | Complete |
 | SITE-05 | Phase 5 | Complete |
-| CONT-01 | Phase 6 | Pending |
-| CONT-02 | Phase 6 | Pending |
+| CONT-01 | Phase 6 | Complete |
+| CONT-02 | Phase 6 | Complete |
 
 **Coverage:**
 - v1 requirements: 20 total
