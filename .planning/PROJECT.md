@@ -10,32 +10,30 @@ A coach can drop in any match video and immediately see annotated footage with p
 
 ## Requirements
 
-### Validated
+### Validated (v1.0)
 
-- ✓ CLI pipeline processes any soccer video (python main.py --input video.mp4) — existing
-- ✓ YOLO11 + ByteTrack detects and tracks players/ball with persistent IDs — existing
-- ✓ KMeans jersey color clustering assigns players to teams — existing
-- ✓ Possession % calculated with 15-frame smoothing — existing
-- ✓ Player speed (km/h) and distance (m) via perspective transform — existing
-- ✓ Annotated video output (ellipses, triangles, overlays) — existing
-- ✓ Stats JSON output alongside annotated video — existing
-- ✓ Camera movement estimation via optical flow — existing
+- ✓ CLI pipeline processes any soccer video (python main.py --input video.mp4) — v1.0
+- ✓ YOLO11 + ByteTrack detects and tracks players/ball with persistent IDs — v1.0
+- ✓ KMeans jersey color clustering assigns players to teams — v1.0
+- ✓ Possession % calculated with 15-frame smoothing — v1.0
+- ✓ Player speed (km/h) and distance (m) via perspective transform — v1.0
+- ✓ Annotated video output (ellipses, triangles, overlays) — v1.0
+- ✓ Stats JSON output alongside annotated video — v1.0
+- ✓ Camera movement estimation via optical flow — v1.0
+- ✓ positions.json export (1Hz per-player coordinates) for heatmap generation — v1.0
+- ✓ Team heatmap PNGs via mplsoccer — v1.0
+- ✓ GitHub Releases video hosting (CDN URLs, no repo size limit) — v1.0
+- ✓ Static demo site on GitHub Pages (Astro, GitHub Actions CI/CD) — v1.0
+- ✓ Manifest-driven clip gallery with annotated video player (Plyr) — v1.0
+- ✓ Stats visualizations: possession bar, speed/distance tables, coming-soon cards — v1.0
+- ✓ Team heatmap display on clip pages (two-column, team-colored) — v1.0
+- ✓ 2-clip NC State D1 gallery, plain-English "How It Works", zero ML jargon — v1.0
 
-### Validated
+### Active (v1.1+)
 
-- ✓ Stats visualizations on clip detail page — possession bar, player speed/distance table, coming-soon teaser cards — Validated in Phase 04: stats-visualizations
-
-### Validated (cont.)
-
-- ✓ Static demo site on GitHub Pages showing pre-processed NC State D1 clips — Validated in Phase 03: site-scaffold-and-video-playback
-- ✓ Annotated video player with stats panel (possession %, speed, distance) per clip — Validated in Phase 03–04
-- ✓ Browse multiple pre-analyzed matches (2-clip gallery) — Validated in Phase 06: polish-and-demo-readiness
-- ✓ Heatmap generation (player position density over match) — Validated in Phase 05: heatmap-visualizations
-- ✓ Demo-ready with NC State D1 soccer clips and plain-English explainer — Validated in Phase 06: polish-and-demo-readiness
-
-### Active
-
-- [ ] Pass/event detection flagging
+- [ ] Pass/event detection (passes, shots, shots on target, assists)
+- [ ] Interactive heatmaps with per-player toggle and time-slice filtering
+- [ ] Video upload web app (FastAPI backend + Next.js frontend)
 
 ### Out of Scope
 
@@ -46,13 +44,10 @@ A coach can drop in any match video and immediately see annotated footage with p
 
 ## Context
 
-- **Current state:** Phase 06 complete — site is demo-ready with a 2-clip gallery, one-liner coaching intro, and plain-English "How It Works" section. All 6 phases of milestone v1.0 complete. Run `python main.py --input match.mp4` to get annotated video + stats JSON.
-- **Demo target:** NC State soccer coaching staff — needs to be polished, browsable at a URL, focused on D1 footage
-- **Video footage:** NC State D1 soccer clips still need to be sourced/acquired
-- **Domain:** User has a domain name available for deployment
-- **Timeline:** 1-2 weeks to demo
-- **Known gaps:** Heatmaps and pass/event detection not yet implemented — these are new features needed for demo
-- **Codebase state:** See `.planning/codebase/` for full analysis. Main concerns include hardcoded paths in some areas, no test suite, perspective transform uses estimated pitch vertices.
+- **Current state:** v1.0 MVP shipped (2026-03-20) — demo site live at krishnaikgaunekar.github.io/Korner-Flags_stats/ with 2 NC State clips, annotated video, stats, heatmaps, and plain-English explainer. Full pipeline working locally. Next: v1.1 event detection or video upload app.
+- **Demo target:** NC State soccer coaching staff — site is ready to share
+- **Domain:** Custom domain available for deployment when needed
+- **Codebase state:** ~4,500 LOC Python + Astro/TypeScript. Perspective transform uses estimated pitch vertices (no calibration). No test suite for pipeline inference code. `tests/` covers data export and heatmap generation only.
 - **PRD:** `docs/Korner-Flags-PRD.docx`
 
 ## Constraints
@@ -67,10 +62,13 @@ A coach can drop in any match video and immediately see annotated footage with p
 
 | Decision | Rationale | Outcome |
 |----------|-----------|---------|
-| Static site first (GitHub Pages) | 1-2 week deadline makes backend too risky; pre-processing locally is reliable and zero server cost | — Pending |
+| Static site first (GitHub Pages) | 1-2 week deadline makes backend too risky; pre-processing locally is reliable and zero server cost | ✓ Shipped — site live |
 | YOLO11 + ByteTrack for tracking | Industry-standard combo for sports tracking; already implemented and working | ✓ Good |
 | KMeans jersey color for team assignment | No hardcoded player IDs needed; generalizes to any team | ✓ Good |
-| FastAPI + Next.js for Phase 2 web app | Standard stack for ML-backed web apps; clean separation of concerns | — Pending |
+| GitHub Releases for video CDN | Bypasses 100 MB GitHub Pages file limit; stable CDN URLs | ✓ Good |
+| mplsoccer for heatmaps | Simple static PNGs; no browser-side JS complexity for v1 | ✓ Good — deferred interactive for v1.1 |
+| Plyr for video player | Open-source, CSS-customizable, no server dependency | ✓ Good |
+| FastAPI + Next.js for Phase 2 web app | Standard stack for ML-backed web apps; clean separation of concerns | — Planned for v1.1+ |
 
 ---
-*Last updated: 2026-03-19 — Phase 06 (polish-and-demo-readiness) complete — milestone v1.0 done*
+*Last updated: 2026-03-20 after v1.0 milestone*
