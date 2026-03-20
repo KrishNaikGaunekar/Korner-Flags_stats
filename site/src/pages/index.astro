@@ -5,15 +5,48 @@ import manifestData from '../../public/data/manifest.json';
 ---
 
 <BaseLayout title="Match Analysis">
+  <p class="page-intro">AI-powered match analysis for soccer coaches.</p>
   <section class="gallery">
     <h2 class="gallery-heading">Match Clips</h2>
     <div class="gallery-grid">
       {manifestData.clips.map((clip) => <ClipCard clip={clip} />)}
     </div>
   </section>
+  <section class="how-it-works">
+    <h2>How It Works</h2>
+    <p class="hiw-subtitle">From raw match footage to actionable coaching insights in minutes.</p>
+    <div class="hiw-steps">
+      <div class="hiw-step">
+        <span class="hiw-icon" aria-hidden="true">&#x1F3AC;</span>
+        <h3 class="hiw-step-title">Record</h3>
+        <p class="hiw-step-desc">Film any match with a standard camera &mdash; no special equipment needed.</p>
+      </div>
+      <div class="hiw-step">
+        <span class="hiw-icon" aria-hidden="true">&#x1F916;</span>
+        <h3 class="hiw-step-title">Analyze</h3>
+        <p class="hiw-step-desc">Our AI detects every player, tracks movement, and identifies teams automatically.</p>
+      </div>
+      <div class="hiw-step">
+        <span class="hiw-icon" aria-hidden="true">&#x1F4CA;</span>
+        <h3 class="hiw-step-title">Review</h3>
+        <p class="hiw-step-desc">Get possession stats, speed and distance data, and team heatmaps instantly.</p>
+      </div>
+      <div class="hiw-step">
+        <span class="hiw-icon" aria-hidden="true">&#x2705;</span>
+        <h3 class="hiw-step-title">Coach</h3>
+        <p class="hiw-step-desc">Use real data to make better tactical decisions and improve performance.</p>
+      </div>
+    </div>
+  </section>
 </BaseLayout>
 
 <style>
+  .page-intro {
+    font-size: 1rem;
+    color: #6e6e73;
+    margin-bottom: 2rem;
+  }
+
   .gallery {
     margin-top: 2.5rem;
   }
@@ -29,5 +62,61 @@ import manifestData from '../../public/data/manifest.json';
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     gap: 1.5rem;
+  }
+
+  .how-it-works {
+    margin-top: 2.5rem;
+    padding: 2rem;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  }
+
+  .how-it-works h2 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+    color: #1d1d1f;
+  }
+
+  .hiw-subtitle {
+    font-size: 0.95rem;
+    color: #6e6e73;
+    margin-bottom: 1.5rem;
+  }
+
+  .hiw-steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1.25rem;
+  }
+
+  .hiw-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem 1rem;
+    background: #f5f5f7;
+    border-radius: 12px;
+  }
+
+  .hiw-icon {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    line-height: 1;
+  }
+
+  .hiw-step-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #1d1d1f;
+    margin-bottom: 0.4rem;
+  }
+
+  .hiw-step-desc {
+    font-size: 0.85rem;
+    color: #6e6e73;
+    line-height: 1.4;
   }
 </style>
