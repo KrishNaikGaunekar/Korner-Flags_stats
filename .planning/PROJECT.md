@@ -25,14 +25,17 @@ A coach can drop in any match video and immediately see annotated footage with p
 
 - ✓ Stats visualizations on clip detail page — possession bar, player speed/distance table, coming-soon teaser cards — Validated in Phase 04: stats-visualizations
 
+### Validated (cont.)
+
+- ✓ Static demo site on GitHub Pages showing pre-processed NC State D1 clips — Validated in Phase 03: site-scaffold-and-video-playback
+- ✓ Annotated video player with stats panel (possession %, speed, distance) per clip — Validated in Phase 03–04
+- ✓ Browse multiple pre-analyzed matches (2-clip gallery) — Validated in Phase 06: polish-and-demo-readiness
+- ✓ Heatmap generation (player position density over match) — Validated in Phase 05: heatmap-visualizations
+- ✓ Demo-ready with NC State D1 soccer clips and plain-English explainer — Validated in Phase 06: polish-and-demo-readiness
+
 ### Active
 
-- [ ] Static demo site on GitHub Pages showing pre-processed NC State D1 clips
-- [ ] Annotated video player with stats panel (possession %, speed, distance) per clip
-- [ ] Browse multiple pre-analyzed matches
-- ✓ Heatmap generation (player position density over match) — Validated in Phase 05: heatmap-visualizations
 - [ ] Pass/event detection flagging
-- [ ] Demo-ready with 2-3 NC State D1 soccer clips processed and uploaded
 
 ### Out of Scope
 
@@ -43,7 +46,7 @@ A coach can drop in any match video and immediately see annotated footage with p
 
 ## Context
 
-- **Current state:** Phase 05 complete — clip pages now display live team heatmap PNGs in a two-column layout with team-colored headings and AI disclaimer. Phase 06 (polish-and-demo-readiness) is next. Run `python main.py --input match.mp4` to get annotated video + stats JSON.
+- **Current state:** Phase 06 complete — site is demo-ready with a 2-clip gallery, one-liner coaching intro, and plain-English "How It Works" section. All 6 phases of milestone v1.0 complete. Run `python main.py --input match.mp4` to get annotated video + stats JSON.
 - **Demo target:** NC State soccer coaching staff — needs to be polished, browsable at a URL, focused on D1 footage
 - **Video footage:** NC State D1 soccer clips still need to be sourced/acquired
 - **Domain:** User has a domain name available for deployment
@@ -70,4 +73,4 @@ A coach can drop in any match video and immediately see annotated footage with p
 | FastAPI + Next.js for Phase 2 web app | Standard stack for ML-backed web apps; clean separation of concerns | — Pending |
 
 ---
-*Last updated: 2026-03-19 — Phase 04 (stats-visualizations) complete*
+*Last updated: 2026-03-19 — Phase 06 (polish-and-demo-readiness) complete — milestone v1.0 done*
