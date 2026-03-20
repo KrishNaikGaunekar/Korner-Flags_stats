@@ -3,13 +3,13 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: unknown
-stopped_at: Phase 5 context gathered
-last_updated: "2026-03-19T21:59:58.145Z"
+stopped_at: Completed 05-01-PLAN.md
+last_updated: "2026-03-20T00:07:19.231Z"
 progress:
   total_phases: 6
-  completed_phases: 4
-  total_plans: 12
-  completed_plans: 12
+  completed_phases: 5
+  total_plans: 13
+  completed_plans: 13
 ---
 
 # Project State
@@ -19,12 +19,12 @@ progress:
 See: .planning/PROJECT.md (updated 2026-03-16)
 
 **Core value:** A coach can drop in any match video and immediately see annotated footage with player tracking, possession %, and speed/distance stats — no setup, no expertise required.
-**Current focus:** Phase 05 — heatmap-visualizations (next)
+**Current focus:** Phase 05 — heatmap-visualizations
 
 ## Current Position
 
-Phase: 04 (stats-visualizations) — COMPLETE
-Plan: 2 of 2 — DONE
+Phase: 05 (heatmap-visualizations) — EXECUTING
+Plan: 1 of 1
 
 ## Performance Metrics
 
@@ -56,6 +56,7 @@ Plan: 2 of 2 — DONE
 | Phase 03 P03 | 15 | 3 tasks | 2 files |
 | Phase 04 P01 | 4 | 2 tasks | 3 files |
 | Phase 04 P02 | 15 | 1 tasks | 1 files |
+| Phase 05 P01 | 5 | 1 tasks | 1 files |
 
 ## Accumulated Context
 
@@ -90,6 +91,8 @@ Recent decisions affecting current work:
 - [Phase 04-01]: SVG padlock used in ComingSoonCards instead of emoji — consistent monochrome rendering across platforms
 - [Phase 04]: Dynamic JSON import uses template literal with literal prefix so Vite resolves at build time
 - [Phase 04]: Ghost player filter (distance_m > 0 || max_speed_kmh > 0) applied in [slug].astro caller, not inside PlayerStatsTable component
+- [Phase 05]: Heatmap images use identical BASE_URL stripping pattern as ClipCard.astro thumbnails — no new patterns introduced
+- [Phase 05]: Section is purely static: no client-side JS, no client:* directives, no Vite asset imports
 
 ### Pending Todos
 
@@ -103,6 +106,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-19T21:59:58.141Z
-Stopped at: Phase 5 context gathered
-Resume file: .planning/phases/05-heatmap-visualizations/05-CONTEXT.md
+Last session: 2026-03-20T00:07:19.226Z
+Stopped at: Completed 05-01-PLAN.md
+Resume file: None

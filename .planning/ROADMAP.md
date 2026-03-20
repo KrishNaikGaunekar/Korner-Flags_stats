@@ -16,7 +16,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 2: Data Export and Video Processing** - Generate all data artifacts (MP4, stats JSON, positions JSON, heatmap PNGs, manifest) needed by the site (completed 2026-03-17)
 - [x] **Phase 3: Site Scaffold and Video Playback** - Deploy GitHub Pages site with Astro and get annotated video playing from GitHub Releases (completed 2026-03-19)
 - [x] **Phase 4: Stats Visualizations** - Add possession and speed/distance panels to each clip page (completed 2026-03-19)
-- [ ] **Phase 5: Heatmap Visualizations** - Embed per-team heatmap PNGs and optionally add browser-side interactive heatmap
+- [x] **Phase 5: Heatmap Visualizations** - Embed per-team heatmap PNGs and optionally add browser-side interactive heatmap (completed 2026-03-20)
 - [ ] **Phase 6: Polish and Demo Readiness** - NC State content, plain-language labels, "How It Works" explainer, cross-browser QA
 
 ## Phase Details
@@ -91,7 +91,7 @@ Plans:
 **Success Criteria** (what must be TRUE):
   1. Each clip page shows at least two heatmap images (one per team) rendered on a pitch background, generated from positions.json by mplsoccer
   2. The heatmaps are visually distinguishable by team color and labeled clearly enough that a coach can identify which team is which without reading a legend twice
-**Plans:** 1 plan
+**Plans:** 1/1 plans complete
 
 Plans:
 - [ ] 05-01-PLAN.md — Replace heatmaps placeholder with two-column PNG layout in clip detail page (SITE-05)
@@ -118,5 +118,5 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6
 | 2. Data Export and Video Processing | 4/4 | Complete   | 2026-03-17 |
 | 3. Site Scaffold and Video Playback | 3/3 | Complete   | 2026-03-19 |
 | 4. Stats Visualizations | 2/2 | Complete   | 2026-03-19 |
-| 5. Heatmap Visualizations | 0/1 | Not started | - |
+| 5. Heatmap Visualizations | 1/1 | Complete   | 2026-03-20 |
 | 6. Polish and Demo Readiness | 0/TBD | Not started | - |
